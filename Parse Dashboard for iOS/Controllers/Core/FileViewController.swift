@@ -102,13 +102,26 @@ class FileViewController: UIViewController {
     // MARK: - Data Refresh
     
     func loadDataFromUrl() {
-        URLSession.shared.dataTask(with: url) { [weak self] data, response, error in
-            guard let data = data, error == nil else { return }
+        
+        let request = URLRequest(url: url)
+        let downloadViewer = DownloadViewer(request: request)
+        downloadViewer.tintColor = .darkPurpleAccent
+        downloadViewer.backgroundColor = .darkPurpleBackground
+        view.addSubview(downloadViewer)
+        downloadViewer.anchorCenterToSuperview()
+        downloadViewer.completionBlock = { [weak self] task, location in
+            let data = NSData(contentsOf: location)
             DispatchQueue.main.async {
-                self?.imageView.image = UIImage(data: data)
+                guard let data = data else {
+                    Ping(text: "Download Error", style: .danger).show(animated: true, duration: 3)
+                    return
+                }
+                self?.imageView.image = UIImage(data: data as Data)
                 self?.imageView.contentMode = .scaleAspectFill
             }
-        }.resume()
+            try? FileManager.default.removeItem(at: location)
+        }
+        downloadViewer.downloadTask?.resume()
     }
     
     // MARK: - User Actions
@@ -130,7 +143,7 @@ class FileViewController: UIViewController {
                     Toast(text: "Saved to camera roll").present(self, animated: true, duration: 3)
                 } else {
                     // "Error saving to camera roll"
-                    Ping(text: "Error saving to camera roll", style: .success).show(animated: true, duration: 3)
+                    Ping(text: "Error saving to camera roll", style: .danger).show(animated: true, duration: 3)
                 }
             }
         })

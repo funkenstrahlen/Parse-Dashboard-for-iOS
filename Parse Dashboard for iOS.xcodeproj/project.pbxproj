@@ -33,6 +33,9 @@
 		3872C1F71FC3CC2000EBD87F /* UIImage+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3872C1F61FC3CC2000EBD87F /* UIImage+Extensions.swift */; };
 		3872C20C1FC414E100EBD87F /* SchemaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3872C20B1FC414E100EBD87F /* SchemaViewController.swift */; };
 		3872C20E1FC415AB00EBD87F /* SchemaCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3872C20D1FC415AB00EBD87F /* SchemaCell.swift */; };
+		38B00F7F1FD1FFE700374203 /* DownloadViewer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38B00F7E1FD1FFE700374203 /* DownloadViewer.swift */; };
+		38B00F811FD60D8200374203 /* AuthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38B00F801FD60D8200374203 /* AuthViewController.swift */; };
+		38B00F831FD60E0D00374203 /* Auth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38B00F821FD60E0D00374203 /* Auth.swift */; };
 		38DE1CF31FC4BAA600C49508 /* ClassViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38DE1CF11FC4BAA600C49508 /* ClassViewController.swift */; };
 		38DE1CF41FC4BAA600C49508 /* QueryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38DE1CF21FC4BAA600C49508 /* QueryViewController.swift */; };
 		38DE1CF81FC4BAB700C49508 /* QueryHelpCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38DE1CF51FC4BAB700C49508 /* QueryHelpCell.swift */; };
@@ -80,6 +83,9 @@
 		3872C1F61FC3CC2000EBD87F /* UIImage+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+Extensions.swift"; sourceTree = "<group>"; };
 		3872C20B1FC414E100EBD87F /* SchemaViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SchemaViewController.swift; sourceTree = "<group>"; };
 		3872C20D1FC415AB00EBD87F /* SchemaCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchemaCell.swift; sourceTree = "<group>"; };
+		38B00F7E1FD1FFE700374203 /* DownloadViewer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DownloadViewer.swift; sourceTree = "<group>"; };
+		38B00F801FD60D8200374203 /* AuthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewController.swift; sourceTree = "<group>"; };
+		38B00F821FD60E0D00374203 /* Auth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Auth.swift; sourceTree = "<group>"; };
 		38DE1CF11FC4BAA600C49508 /* ClassViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClassViewController.swift; sourceTree = "<group>"; };
 		38DE1CF21FC4BAA600C49508 /* QueryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QueryViewController.swift; sourceTree = "<group>"; };
 		38DE1CF51FC4BAB700C49508 /* QueryHelpCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QueryHelpCell.swift; sourceTree = "<group>"; };
@@ -124,8 +130,9 @@
 		38028C9B1FC558BC003A4E95 /* Core */ = {
 			isa = PBXGroup;
 			children = (
-				38DE1D0B1FC5415000C49508 /* ServerDetailViewController.swift */,
+				38B00F801FD60D8200374203 /* AuthViewController.swift */,
 				3872C1EA1FC3C49900EBD87F /* ServersViewController.swift */,
+				38DE1D0B1FC5415000C49508 /* ServerDetailViewController.swift */,
 				3872C20B1FC414E100EBD87F /* SchemaViewController.swift */,
 				38028CA91FC56611003A4E95 /* SchemaDetailViewController.swift */,
 				38DE1CF11FC4BAA600C49508 /* ClassViewController.swift */,
@@ -207,6 +214,7 @@
 				3872C1D51FC3BCF500EBD87F /* PFObject.swift */,
 				3872C1D71FC3BCF600EBD87F /* PFSchema.swift */,
 				3872C1D61FC3BCF600EBD87F /* PFServer.swift */,
+				38B00F821FD60E0D00374203 /* Auth.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -244,6 +252,7 @@
 				38DE1CFD1FC4C30E00C49508 /* InputTextView.swift */,
 				38028CA31FC56145003A4E95 /* Ping.swift */,
 				38028CA41FC56145003A4E95 /* Toast.swift */,
+				38B00F7E1FD1FFE700374203 /* DownloadViewer.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -411,6 +420,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				38028CA61FC56145003A4E95 /* Toast.swift in Sources */,
+				38B00F811FD60D8200374203 /* AuthViewController.swift in Sources */,
 				3872C1DF1FC3BE2500EBD87F /* UIApplication+Extensions.swift in Sources */,
 				38DE1CF81FC4BAB700C49508 /* QueryHelpCell.swift in Sources */,
 				38DE1D061FC515B800C49508 /* ObjectViewController.swift in Sources */,
@@ -419,6 +429,8 @@
 				3872C1DC1FC3BCF600EBD87F /* Parse.swift in Sources */,
 				38F12D3E1FC696D300D3817D /* UIAlertController+Extensions.swift in Sources */,
 				38DE1D0F1FC5453200C49508 /* FileViewController.swift in Sources */,
+				38B00F7F1FD1FFE700374203 /* DownloadViewer.swift in Sources */,
+				38B00F831FD60E0D00374203 /* Auth.swift in Sources */,
 				38028CAA1FC56611003A4E95 /* SchemaDetailViewController.swift in Sources */,
 				38DE1D081FC516A700C49508 /* FieldCell.swift in Sources */,
 				3872C1DB1FC3BCF600EBD87F /* PFSchema.swift in Sources */,

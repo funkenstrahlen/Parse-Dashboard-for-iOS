@@ -283,7 +283,8 @@ class ClassViewController: PFCollectionViewController, QueryDelegate {
     }
     
     override func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
-        let viewController = ObjectViewController(objects[indexPath.row])
+        let object = isFiltering() ? filteredObjects[indexPath.row] : objects[indexPath.row]
+        let viewController = ObjectViewController(object)
         navigationController?.pushViewController(viewController, animated: true)
     }
     
