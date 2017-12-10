@@ -1,4 +1,5 @@
 PODS:
+  - BiometricAuthentication (1.0.2)
   - DKImagePickerController (3.8.1):
     - DKImagePickerController/Camera (= 3.8.1)
     - DKImagePickerController/ImageManager (= 3.8.1)
@@ -10,16 +11,18 @@ PODS:
   - SwiftyJSON (4.0.0)
 
 DEPENDENCIES:
+  - BiometricAuthentication
   - DKImagePickerController
   - RMDateSelectionViewController
   - SwiftyJSON
 
 SPEC CHECKSUMS:
+  BiometricAuthentication: e14b081ea7c59c6c4ee8b54f26489ce9d737ba51
   DKImagePickerController: 51ad6ee2ba05414bb741db54a72cd7f4fb178e34
   RMActionController: 535715be9f3d9eb96a838485370dcccee0dda597
   RMDateSelectionViewController: 1157d34245e6a1dda700e8a9c44417321d181951
   SwiftyJSON: 070dabdcb1beb81b247c65ffa3a79dbbfb3b48aa
 
-PODFILE CHECKSUM: 5b720c88519b44e4c989dff1846e6b48e3d3b965
+PODFILE CHECKSUM: e28245a86504bef052660497e87c51456e0cb513
 
 COCOAPODS: 1.3.1

@@ -102,12 +102,14 @@ strip_invalid_archs() {
 
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
+  install_framework "${BUILT_PRODUCTS_DIR}/BiometricAuthentication/BiometricAuthentication.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/DKImagePickerController/DKImagePickerController.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/RMActionController/RMActionController.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/RMDateSelectionViewController/RMDateSelectionViewController.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
+  install_framework "${BUILT_PRODUCTS_DIR}/BiometricAuthentication/BiometricAuthentication.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/DKImagePickerController/DKImagePickerController.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/RMActionController/RMActionController.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/RMDateSelectionViewController/RMDateSelectionViewController.framework"

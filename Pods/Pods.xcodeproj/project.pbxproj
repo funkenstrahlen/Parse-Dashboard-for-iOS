@@ -3,230 +3,251 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 48;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0895226E80FCD70DAEFBF7F564E0CC3B /* RMAction+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 9948CB178989033542C3E61D0BC3F5BC /* RMAction+Private.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		145565DF253A857CE63707442F9E65EF /* DKImagePickerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBBE67F92394D7A29A996887348748E3 /* DKImagePickerController.swift */; };
-		1D7713B62F0A357A8CBEDC33FEC48CA2 /* UIView+RMActionController.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B8ABD5D1258A9F538FFE0E2EB2D1F48 /* UIView+RMActionController.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		1DB0C83F0C43AD8582F585E426CA95E3 /* DKAssetGroupDetailVideoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F455713E59A92BB69BE68EE1CCD8BBAF /* DKAssetGroupDetailVideoCell.swift */; };
-		2237DF53C31AF7E0FE05521CEB46F201 /* DKImageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BC427A798D462AC7E3AF9F7EC363533 /* DKImageManager.swift */; };
-		23920A722D23703D036041D09AD227E4 /* NSProcessInfo+RMActionController.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C2091723B341890BF06915BC7F25768 /* NSProcessInfo+RMActionController.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		285E72435C759D5C9F9F5A8998C2A51B /* RMAction.h in Headers */ = {isa = PBXBuildFile; fileRef = CD140FF935637C047B3B90ADF6F12888 /* RMAction.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2BE944BDB10B431D7FA0C8AFB857B90D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECBB10E063194C44CCDD0679F242367F /* Foundation.framework */; };
-		2C5C2468A6671012F32D2664CF55ECB7 /* DKPopoverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08EF48FCF619F3C424553B70F7E2A39F /* DKPopoverViewController.swift */; };
+		0C09A4823660C62A603E013A931B67E8 /* RMActionControllerTransition.h in Headers */ = {isa = PBXBuildFile; fileRef = 93BDFB1423ED218F697B024F28952FED /* RMActionControllerTransition.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		0C665AC53CA7E5CD6B39C8505D383563 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECBB10E063194C44CCDD0679F242367F /* Foundation.framework */; };
+		0C9694B251652ADEC4D0E16B021FF2CE /* RMDateSelectionViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = E5F43F8FC990E5F705D00CEE0B35BCEF /* RMDateSelectionViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0EC728AA81227BD43822ACD547924AB3 /* RMActionController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C65237D94C3C628196B814B4912956F /* RMActionController-dummy.m */; };
+		13AB5E3C9818C49D66F338FC0A4FBC0B /* RMActionController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CA336B16135C27A41F89CA3BB0778743 /* RMActionController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		145565DF253A857CE63707442F9E65EF /* DKImagePickerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5530021B7ADA47A3B8646B9F04F1934 /* DKImagePickerController.swift */; };
+		19294DD91D015DC3B553ECAF1831230A /* RMActionController+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 5442BAA896BBBEF39448554F1E3A17B4 /* RMActionController+Private.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		1DB0C83F0C43AD8582F585E426CA95E3 /* DKAssetGroupDetailVideoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C9D411751E93BA86DCAD05BB36D216C /* DKAssetGroupDetailVideoCell.swift */; };
+		2237DF53C31AF7E0FE05521CEB46F201 /* DKImageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA6C690F48FE881776B90CFAC04A503F /* DKImageManager.swift */; };
+		23AFC33C07D45CFB47B03D13F4BE8A6F /* BiometricAuthentication-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A276D8D19D71DC4821E7DA17B375042A /* BiometricAuthentication-dummy.m */; };
+		2C5C2468A6671012F32D2664CF55ECB7 /* DKPopoverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F628C88301EF6D029EACCE9836CD7CD7 /* DKPopoverViewController.swift */; };
 		2E36C1A287226816DC7B86AB5A9E7638 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DEAA2C96C5D1B8D9E40C0EA7540209A6 /* UIKit.framework */; };
-		2ECDBEF89132A87215C09E9BD6FA7AF7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECBB10E063194C44CCDD0679F242367F /* Foundation.framework */; };
-		2F4AE750111E6C5E7BDA1979BC2FECD6 /* RMDateSelectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CDA0D4576329B67C04C3791232D59F04 /* RMDateSelectionViewController.m */; };
-		33F2A6BCAC92D6D39C5221205DA79758 /* DKAsset.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1625AFF5A62B3B1964B1792BCD928272 /* DKAsset.swift */; };
-		35DDDEE6DAB11EF63B7D887236C758D0 /* UIView+RMActionController.m in Sources */ = {isa = PBXBuildFile; fileRef = B80B9E78C46510F143F2DF3C0271B462 /* UIView+RMActionController.m */; };
-		36F7A3789FC014B9BA09498EB2A067E0 /* DKAssetGroupDetailBaseCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99FAAE5C6A6D4585189282E91A7D835F /* DKAssetGroupDetailBaseCell.swift */; };
-		36F7E6BFF60D3C6F020A1562B2A3C0A6 /* DKAssetGroupCellItemProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D098FC3140177912062EA99B3D082F9 /* DKAssetGroupCellItemProtocol.swift */; };
-		3A700D187F164F1195F3843B058C157A /* RMActionController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 606E595878256BAD09FE172CD897729C /* RMActionController-dummy.m */; };
-		419C5EB28D2E3A743BF4DF13A9C3A923 /* RMActionController+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 009A0500E4A84EF24A0E8127ECA4A041 /* RMActionController+Private.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		431EC32617760CB2AA163E0212F42DF2 /* Pods-Parse Dashboard for iOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 30F46DD3B06113AFCCF9034BBB180C1B /* Pods-Parse Dashboard for iOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		44327E76F9D488AA11A1E976B4D583F2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECBB10E063194C44CCDD0679F242367F /* Foundation.framework */; };
-		44756BD4A65FD23FA1702B8D522BDF02 /* RMImageAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 48660083A487BA5467C08042CC15A8F0 /* RMImageAction.m */; };
-		475BCDE4EDDDC3B6138A19906FD664A0 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C12665F4F053FE6FD86604A637AFBF /* SwiftyJSON.swift */; };
-		49094EE541FB7CF9895BA8DEDD490C8E /* DKCameraResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5209B4E76EDEE8590273FAB172C024DD /* DKCameraResource.swift */; };
-		4B3D2513653ADA50E999E2B9F2ED5A91 /* DKImagePickerController.h in Headers */ = {isa = PBXBuildFile; fileRef = 1CCDB3CF9BD51A2AF489364B4283D888 /* DKImagePickerController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4EB40349047CF5B5B91CD05AE7F02A35 /* DKAssetGroupDetailImageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D161ECF7CF0FD800AA0E4A75DD71768 /* DKAssetGroupDetailImageCell.swift */; };
-		553E69D4B8D3C41643D5CFA1B48F2CD1 /* RMActionControllerTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = F39BA9DA7E8C91B67CBFB07D46EAF27D /* RMActionControllerTransition.m */; };
+		2E91DECBE5FD957BD35E14CE4F322496 /* RMGroupedAction.m in Sources */ = {isa = PBXBuildFile; fileRef = C32AD0B39FB1A3C801CDB80042603D88 /* RMGroupedAction.m */; };
+		33F2A6BCAC92D6D39C5221205DA79758 /* DKAsset.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C344C2E756D31A80BC2DF18DC7AA05B /* DKAsset.swift */; };
+		36F7A3789FC014B9BA09498EB2A067E0 /* DKAssetGroupDetailBaseCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0A24F8E5B8C63638E80324AAFF8C226 /* DKAssetGroupDetailBaseCell.swift */; };
+		36F7E6BFF60D3C6F020A1562B2A3C0A6 /* DKAssetGroupCellItemProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFE95BD6632887B8948065C72F0300B5 /* DKAssetGroupCellItemProtocol.swift */; };
+		38D55C71EA05277798BE064858BD46F0 /* RMAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B148BB225DF953DA6370C49864002F0 /* RMAction.m */; };
+		49094EE541FB7CF9895BA8DEDD490C8E /* DKCameraResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24FF718A959DA320A3FE8513737CDB34 /* DKCameraResource.swift */; };
+		4B3D2513653ADA50E999E2B9F2ED5A91 /* DKImagePickerController.h in Headers */ = {isa = PBXBuildFile; fileRef = C1AD4513F1F53ECA325D66C72EB23E72 /* DKImagePickerController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4CB66F4EFEDF247AAF265B8A154B3265 /* SwiftyJSON-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 54092F7AB0661A0BD9C5C4F920A2A762 /* SwiftyJSON-dummy.m */; };
+		4EB40349047CF5B5B91CD05AE7F02A35 /* DKAssetGroupDetailImageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA81318DFB8772CEAE866F412539CD26 /* DKAssetGroupDetailImageCell.swift */; };
+		56BA2001F191CBD886ED61A91A3EA9BF /* RMImageAction.h in Headers */ = {isa = PBXBuildFile; fileRef = 41D8A22EFC905B9C2D26922CBE476657 /* RMImageAction.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		58360C2B9299BDE249D87322B388C24F /* Photos.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C03CDE47114201253D99399D6218637 /* Photos.framework */; };
-		59D7E31DB68164C8D6DCC01CCB7918A4 /* SwiftyJSON-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D2282A7A0F2B283160EA261C356897BC /* SwiftyJSON-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		632BC81AB4D659AC7634E614F07188D1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECBB10E063194C44CCDD0679F242367F /* Foundation.framework */; };
-		65537F6217E29EE3DAF6B747668A04A0 /* DKCameraResource.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 2E39FE056CA9FCC5AA5BECC5A5A8F798 /* DKCameraResource.bundle */; };
-		7189871E49605C9979F6153B11659E1A /* DKAssetGroupDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CEE5AA55C40EE7C7556BF0614509C8E /* DKAssetGroupDetailVC.swift */; };
-		73C5807F7A44DA65E35BE3C356BD2289 /* RMImageAction.h in Headers */ = {isa = PBXBuildFile; fileRef = 1EFA16480090416086886C954A780BE2 /* RMImageAction.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7929FEE8E706A02C317FC810AACFF115 /* DKImagePickerControllerDefaultUIDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 484C42F15F7C33C11907E183F62FC06D /* DKImagePickerControllerDefaultUIDelegate.swift */; };
-		7ADA1FEC41CB7712FC7F05AF3FCB0F68 /* DKPermissionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D488C1935D89DEAC7AEEF5D220F503F1 /* DKPermissionView.swift */; };
-		7C071A5211D2282A4826CEF9BEF52B41 /* RMActionController.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AEDF00373BBDEEE5BE318E050F531E2 /* RMActionController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7CCC24825F6A431479FB9B7B93EC2E90 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECBB10E063194C44CCDD0679F242367F /* Foundation.framework */; };
-		7E5976C996106400D68F47DF25BC112B /* RMDateSelectionViewController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 403A2DC7615D5230127AB232FA97B53C /* RMDateSelectionViewController-dummy.m */; };
-		83227430E8741EB66A6250FCC3A38D88 /* DKAssetGroupDetailCameraCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B499C93EF153DE25A58A423900A8980 /* DKAssetGroupDetailCameraCell.swift */; };
-		8CEABF8E1147C60C2BED5968C6E03E9B /* DKImagePickerController.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 79E944FB75E967205C5B77F9CBCC8338 /* DKImagePickerController.bundle */; };
-		9524C3AA030D1573FFD13B4E62ACD6BA /* RMActionControllerTransition.h in Headers */ = {isa = PBXBuildFile; fileRef = 371FE25CBC9208F475BB9C26B01813A8 /* RMActionControllerTransition.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		9FF9CE8BFD44B8CEA8B4BAEA481B45E7 /* DKGroupDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C4F5786DD111CCD24DA614D4037C828 /* DKGroupDataManager.swift */; };
-		A7703376DBB0D8B97C9C3D562BE9E587 /* DKCamera.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75D6C602355A02978F99903161D38C1E /* DKCamera.swift */; };
-		A8AED53503E2FD7E25C1BB6F3A540790 /* RMDateSelectionViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = B69A45F38084C8EA1260981E12C747B9 /* RMDateSelectionViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AE59610E662935E303BF1801918C4088 /* DKAssetGroupGridLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = D43964EE8D4DA2501B20F332E3316287 /* DKAssetGroupGridLayout.swift */; };
-		B0F79FA558303BA9A08DDB4255AD302A /* Pods-Parse Dashboard for iOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 01698836D5B941F7D61DF89D6525B001 /* Pods-Parse Dashboard for iOS-dummy.m */; };
-		B75EE9D05B6FD40665922C4B04CB224E /* DKImageResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B3DE37733F5FC9EE8EC8A398DCCE962 /* DKImageResource.swift */; };
-		B88E6E6A90C50726830F1A84A9627074 /* RMGroupedAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 594102136486295085FA307C8EE00391 /* RMGroupedAction.m */; };
-		BA46FB7E6FF4B10142B2761764BFADC0 /* DKImagePickerController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D5AFB054C9B851CDBBF316C14F492E11 /* DKImagePickerController-dummy.m */; };
-		BAEA3BFF18687E6F72118A44479E35AC /* RMScrollableGroupedAction.h in Headers */ = {isa = PBXBuildFile; fileRef = E37D07D9CDEE1618CA3AB76D7133A1C5 /* RMScrollableGroupedAction.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BEE15E26040D187BC57978E7F90E3A0B /* DKImagePickerController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 89501FA36341236AC6145B274D20E0F0 /* DKImagePickerController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C39BC317591F338A06AE64491BC44E5E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 06104B28D2E2E726A94C6633A6610CEE /* CoreGraphics.framework */; };
-		D1D48883CF420D9A5640B982F8450328 /* SwiftyJSON-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B5DB5C6B72CA538AE0A851AFE1045F7A /* SwiftyJSON-dummy.m */; };
-		D6F2C07D9A70ACF7B8758C3A961B6892 /* DKAssetGroupListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA13F9F025785693BDEEB717A4AFE2B6 /* DKAssetGroupListVC.swift */; };
-		D842BFB21F271204D83C92478BB562C3 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E638F5D1935E42DDBB76E15D7AC2602 /* QuartzCore.framework */; };
-		D9192127D20D5581C79D551ECBF33230 /* RMActionController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BD03AC18783CC646114283E0587CE879 /* RMActionController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		ED991684B7C40575F9278B877C64260C /* RMGroupedAction.h in Headers */ = {isa = PBXBuildFile; fileRef = 6A21E1E0F6BF1DE6DC379B152934F179 /* RMGroupedAction.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EDADD194169A459D51B88BF98CEC4BFE /* RMActionController.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E84EA88F1C98A4B8ACAD177466BC03D /* RMActionController.framework */; };
-		EEA0C19D6B5079FAC3276AE80F45022F /* RMDateSelectionViewController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D286AE685229A245FF698CADF4EEB203 /* RMDateSelectionViewController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F1D62F2E9E006A71D1A915D583BF37DA /* NSProcessInfo+RMActionController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E7AD11D300C8B399B0C21669125275A /* NSProcessInfo+RMActionController.m */; };
-		F32E9851828295E1BC612B02402F73CC /* RMActionController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3202A2204C3F93965E25816242636077 /* RMActionController.m */; };
-		F65E60369FB602EBDB6A70FAEAD74079 /* RMScrollableGroupedAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 271059B2A135B6C3A48732BAA040AB5A /* RMScrollableGroupedAction.m */; };
-		F8461624534E12B8F35A5A4CB99C1A66 /* DKAssetGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25F6C68E502FB1D709A398923DCC541F /* DKAssetGroup.swift */; };
-		FEF91EC9424B1EF2818B320F8B97F104 /* RMAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CEE82612467EAB9E461D9AE672ABE41 /* RMAction.m */; };
+		64B03E4ADA0ADD63AED40586EA388C12 /* RMDateSelectionViewController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FA646A00A7738A4F16860E77947FE3B9 /* RMDateSelectionViewController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		65537F6217E29EE3DAF6B747668A04A0 /* DKCameraResource.bundle in Resources */ = {isa = PBXBuildFile; fileRef = EEB65739CD005E767795A181E1618E49 /* DKCameraResource.bundle */; };
+		6735B698B0D6625CDE208E3428857647 /* RMActionController.h in Headers */ = {isa = PBXBuildFile; fileRef = B59B71C94BE4B2D1D2BBC6BE4A0B4A58 /* RMActionController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		691AEC64441C2CB63D9867BE5CB54FF7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECBB10E063194C44CCDD0679F242367F /* Foundation.framework */; };
+		6F0286E2CF3697ACFAD4329AEA82263D /* RMGroupedAction.h in Headers */ = {isa = PBXBuildFile; fileRef = FC4DC801EF6FCD99AAA7007EDFEAF6F0 /* RMGroupedAction.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7189871E49605C9979F6153B11659E1A /* DKAssetGroupDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D3477D16DC754C3B457F9104749202D /* DKAssetGroupDetailVC.swift */; };
+		719B51ADDF4DFF571EE300F7039D12E5 /* NSProcessInfo+RMActionController.m in Sources */ = {isa = PBXBuildFile; fileRef = 95BDE214F82B429967548BCB146967A1 /* NSProcessInfo+RMActionController.m */; };
+		75A02C86488F71DCEED3748E273B0E80 /* Pods-Parse Dashboard for iOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 30F46DD3B06113AFCCF9034BBB180C1B /* Pods-Parse Dashboard for iOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		76CBF40D79D013CAE1AA3B9F12B57115 /* RMAction+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 5187094FEF4D089CE0C37F9AD0F880E2 /* RMAction+Private.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		7929FEE8E706A02C317FC810AACFF115 /* DKImagePickerControllerDefaultUIDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A36281124121C46CD83A309B1037DD7 /* DKImagePickerControllerDefaultUIDelegate.swift */; };
+		7ADA1FEC41CB7712FC7F05AF3FCB0F68 /* DKPermissionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C176FA39E1FBDDF94EB87DE641B80140 /* DKPermissionView.swift */; };
+		7C5D016583863702B81818D9967AFF71 /* RMDateSelectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24B8173DA770640C13F92A47B0967617 /* RMDateSelectionViewController.m */; };
+		7ECCF6B27222FDC0524656EF585A8307 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 06104B28D2E2E726A94C6633A6610CEE /* CoreGraphics.framework */; };
+		7ECED97A262EA4717082D77610C43176 /* RMActionController.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E84EA88F1C98A4B8ACAD177466BC03D /* RMActionController.framework */; };
+		81B220B10AADC9852C350AC812B4E43C /* NSProcessInfo+RMActionController.h in Headers */ = {isa = PBXBuildFile; fileRef = B2C7EEFE8D1F06A674110CAC213CA529 /* NSProcessInfo+RMActionController.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		83227430E8741EB66A6250FCC3A38D88 /* DKAssetGroupDetailCameraCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC16F2F4F92E4578120ED45FC7254D06 /* DKAssetGroupDetailCameraCell.swift */; };
+		861C4DA1383172332A4A43B4AFEFDC10 /* AuthenticationErrors.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCBB3386A442E20061DB7CC56709FF53 /* AuthenticationErrors.swift */; };
+		8B1D2B08674E7AB076E540A5230F12CC /* BioMetricAuthenticator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3907680EEFE3635892E281A8B1EE1719 /* BioMetricAuthenticator.swift */; };
+		8CEABF8E1147C60C2BED5968C6E03E9B /* DKImagePickerController.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 7879C53025C4BD81A1FCF35192B05C4D /* DKImagePickerController.bundle */; };
+		91089A814D3960BC18BD6EDFC750EC9F /* UIView+RMActionController.h in Headers */ = {isa = PBXBuildFile; fileRef = 48CC8EAD99600B40FAB5A97F23472F33 /* UIView+RMActionController.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		976310ADE2A09CAC496FD8884C33A220 /* RMActionControllerTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 043BDAB208F19A592D9C98246417F011 /* RMActionControllerTransition.m */; };
+		9B686A7853A48A3E78B4D6D6E745B3CC /* RMImageAction.m in Sources */ = {isa = PBXBuildFile; fileRef = F0D1A34BCF35FD6F52C2F5BCA794E55A /* RMImageAction.m */; };
+		9E9FF1E7ABA170013CAAE20C2053EC12 /* RMActionController.m in Sources */ = {isa = PBXBuildFile; fileRef = 323EFF6995D4CCDC28D4A3CF6702DFA8 /* RMActionController.m */; };
+		9FF9CE8BFD44B8CEA8B4BAEA481B45E7 /* DKGroupDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FFD1BABF4BC77075D8E861054A72C7C /* DKGroupDataManager.swift */; };
+		A0066B870C4A1F9E9C72D365CAD26034 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 725F3DFC25A0BEE2724EB2FC764CD45E /* SwiftyJSON.swift */; };
+		A7703376DBB0D8B97C9C3D562BE9E587 /* DKCamera.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88E3969EE3A407EFCD096AD6F8222EDF /* DKCamera.swift */; };
+		AE59610E662935E303BF1801918C4088 /* DKAssetGroupGridLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F97DC3B6E296E8A31D6396341E55495 /* DKAssetGroupGridLayout.swift */; };
+		AE7C0AD4F85CFE25A28EA1FDB399A186 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECBB10E063194C44CCDD0679F242367F /* Foundation.framework */; };
+		B1DB321115E5E8576FD7813D25916D44 /* RMAction.h in Headers */ = {isa = PBXBuildFile; fileRef = FACBB55A47903B6E96636C9CA5FC0CD7 /* RMAction.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B75EE9D05B6FD40665922C4B04CB224E /* DKImageResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0979DD967713834D23F5AADE136D57B9 /* DKImageResource.swift */; };
+		BA46FB7E6FF4B10142B2761764BFADC0 /* DKImagePickerController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8269EB2455D855B66EDD24086AF6599F /* DKImagePickerController-dummy.m */; };
+		BEE15E26040D187BC57978E7F90E3A0B /* DKImagePickerController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8247E250004543EA53BF3029C53EEBC1 /* DKImagePickerController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C09348A6D17868C5B278A576C6C21EE9 /* BiometricAuthenticationConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DE77609F6F5EECB608DD35E2ABAA3F1 /* BiometricAuthenticationConstants.swift */; };
+		CFD165DECCBA87D0A801744CEB788A21 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECBB10E063194C44CCDD0679F242367F /* Foundation.framework */; };
+		D276F31AA846E447A56C521FC1EBA332 /* UIView+RMActionController.m in Sources */ = {isa = PBXBuildFile; fileRef = B7E13AA3DEEC8B639E1D63B4C1F343D3 /* UIView+RMActionController.m */; };
+		D6E7CE866BC4ACD8AD872ED6AB96D591 /* RMScrollableGroupedAction.h in Headers */ = {isa = PBXBuildFile; fileRef = DCAA03927276DC591F3F1D58CA6B49A5 /* RMScrollableGroupedAction.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D6F2C07D9A70ACF7B8758C3A961B6892 /* DKAssetGroupListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC19CCACC783F9F75684F9E58D1A3974 /* DKAssetGroupListVC.swift */; };
+		DA61EB3E78A1368601F33446CF0D4AF3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECBB10E063194C44CCDD0679F242367F /* Foundation.framework */; };
+		E348C07704B705C9988C971A4CBD057F /* SwiftyJSON-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8535514CA0DD9C657096A54CFB0C7213 /* SwiftyJSON-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E47CF3A15F15CFE9B765AC47F1AD3D2B /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E638F5D1935E42DDBB76E15D7AC2602 /* QuartzCore.framework */; };
+		E6EE41D578F5A21CD9A56815D447E5CA /* BiometricAuthentication-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AF8083181213337BF3980A3B899CD406 /* BiometricAuthentication-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EF7863290FECC5ADCFA659E40B688B97 /* Pods-Parse Dashboard for iOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 01698836D5B941F7D61DF89D6525B001 /* Pods-Parse Dashboard for iOS-dummy.m */; };
+		F8106EAF862683636904E5551A69BA8A /* RMDateSelectionViewController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 29E22600F708BE6649D0DA679735D3AA /* RMDateSelectionViewController-dummy.m */; };
+		F8461624534E12B8F35A5A4CB99C1A66 /* DKAssetGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = E976B329BC601162E33229919E621278 /* DKAssetGroup.swift */; };
+		FAA801E36C1451DB496031C876589C98 /* RMScrollableGroupedAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A7B4689416059990F01AE5F46783CAD /* RMScrollableGroupedAction.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		59BAE3761B66A366F87FD58FAD7D79FD /* PBXContainerItemProxy */ = {
+		01B3778841196F952CEBABE1656D8A5E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = B893E3BD33751BA032A7093BCE5688DE;
+			remoteGlobalIDString = 3C19AD3789C94D29215E6CF88D37EA06;
 			remoteInfo = RMDateSelectionViewController;
 		};
-		75C8432FE1A00CDC2911A8E2F91095E9 /* PBXContainerItemProxy */ = {
+		6F3B07E999B647EB7A72E1C0AD3BBC26 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = EE81FA852BA4428979055A5BFC4014CC;
-			remoteInfo = RMActionController;
+			remoteGlobalIDString = 49C6898FDD2500758798F3440964F1CB;
+			remoteInfo = SwiftyJSON;
 		};
-		7D2F4F48F7F9435999FE505981C01DFC /* PBXContainerItemProxy */ = {
+		7CDDC8F6B429F86E7947250F0D804668 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = EE81FA852BA4428979055A5BFC4014CC;
+			remoteGlobalIDString = 279951F4606A1C83881A2178BF01FD12;
 			remoteInfo = RMActionController;
 		};
-		B530B75A4D70ABD277AF314AF76939A2 /* PBXContainerItemProxy */ = {
+		ABA70361BF5BC416E876369D3A9C3290 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 279951F4606A1C83881A2178BF01FD12;
+			remoteInfo = RMActionController;
+		};
+		AD17B0FEB05A686AC6878C6663E64CA6 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = A85101B2D8F83CBBC40FE5CD5A830086;
 			remoteInfo = DKImagePickerController;
 		};
-		F314067C3073EF79ED8814EFD180F526 /* PBXContainerItemProxy */ = {
+		DAC75B65AD2C90F45B7EFCB4A2349C85 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = A0922A7B99FAFDEB8251B0D3E5DE1F28;
-			remoteInfo = SwiftyJSON;
+			remoteGlobalIDString = 09F8E087091C60688A3B878681637BC9;
+			remoteInfo = BiometricAuthentication;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		009A0500E4A84EF24A0E8127ECA4A041 /* RMActionController+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "RMActionController+Private.h"; path = "RMActionController/Private/RMActionController+Private.h"; sourceTree = "<group>"; };
 		01698836D5B941F7D61DF89D6525B001 /* Pods-Parse Dashboard for iOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Parse Dashboard for iOS-dummy.m"; sourceTree = "<group>"; };
+		043BDAB208F19A592D9C98246417F011 /* RMActionControllerTransition.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RMActionControllerTransition.m; path = RMActionController/Animations/RMActionControllerTransition.m; sourceTree = "<group>"; };
 		06104B28D2E2E726A94C6633A6610CEE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
-		08EF48FCF619F3C424553B70F7E2A39F /* DKPopoverViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DKPopoverViewController.swift; path = DKImagePickerController/DKPopoverViewController.swift; sourceTree = "<group>"; };
-		0CEE82612467EAB9E461D9AE672ABE41 /* RMAction.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RMAction.m; path = RMActionController/Actions/RMAction.m; sourceTree = "<group>"; };
-		0E7AD11D300C8B399B0C21669125275A /* NSProcessInfo+RMActionController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSProcessInfo+RMActionController.m"; path = "RMActionController/Categories/NSProcessInfo+RMActionController.m"; sourceTree = "<group>"; };
-		0F2150726E17DC2906B017158FFB498E /* DKImagePickerController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = DKImagePickerController.modulemap; sourceTree = "<group>"; };
-		1625AFF5A62B3B1964B1792BCD928272 /* DKAsset.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DKAsset.swift; path = DKImageManager/Data/Model/DKAsset.swift; sourceTree = "<group>"; };
-		1B8ABD5D1258A9F538FFE0E2EB2D1F48 /* UIView+RMActionController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+RMActionController.h"; path = "RMActionController/Categories/UIView+RMActionController.h"; sourceTree = "<group>"; };
-		1BC427A798D462AC7E3AF9F7EC363533 /* DKImageManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DKImageManager.swift; path = DKImageManager/DKImageManager.swift; sourceTree = "<group>"; };
+		0979DD967713834D23F5AADE136D57B9 /* DKImageResource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DKImageResource.swift; path = DKImagePickerController/DKImageResource.swift; sourceTree = "<group>"; };
+		0A36281124121C46CD83A309B1037DD7 /* DKImagePickerControllerDefaultUIDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DKImagePickerControllerDefaultUIDelegate.swift; path = DKImagePickerController/DKImagePickerControllerDefaultUIDelegate.swift; sourceTree = "<group>"; };
+		0C6EBA8DEF5DD03369C47D6BD594FF9B /* BiometricAuthentication.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = BiometricAuthentication.framework; path = BiometricAuthentication.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0FB923C52E060CBA41877743851B78E1 /* BiometricAuthentication.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = BiometricAuthentication.modulemap; sourceTree = "<group>"; };
+		148C40C10F41F2375C0BDE0CDF90D286 /* RMDateSelectionViewController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = RMDateSelectionViewController.framework; path = RMDateSelectionViewController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		18078E898B3950AD2D5315E66DDB728E /* SwiftyJSON.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = SwiftyJSON.modulemap; sourceTree = "<group>"; };
+		1B1E10AE4B00E5D8078011C7031A0C93 /* DKImagePickerController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DKImagePickerController.xcconfig; sourceTree = "<group>"; };
+		1BA068F0A2F6DEDF5EB56B8BF7DC5D9B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1C03CDE47114201253D99399D6218637 /* Photos.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Photos.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Photos.framework; sourceTree = DEVELOPER_DIR; };
-		1CCDB3CF9BD51A2AF489364B4283D888 /* DKImagePickerController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DKImagePickerController.h; path = DKImagePickerController/DKImagePickerController.h; sourceTree = "<group>"; };
-		1DF9B80E47EDECBD9E8CABD6801E6B52 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1E84EA88F1C98A4B8ACAD177466BC03D /* RMActionController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RMActionController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		1EFA16480090416086886C954A780BE2 /* RMImageAction.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RMImageAction.h; path = RMActionController/Actions/RMImageAction.h; sourceTree = "<group>"; };
-		25F6C68E502FB1D709A398923DCC541F /* DKAssetGroup.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DKAssetGroup.swift; path = DKImageManager/Data/Model/DKAssetGroup.swift; sourceTree = "<group>"; };
-		271059B2A135B6C3A48732BAA040AB5A /* RMScrollableGroupedAction.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RMScrollableGroupedAction.m; path = "RMActionController/Grouping Actions/RMScrollableGroupedAction.m"; sourceTree = "<group>"; };
-		2C2CD662ED5F72902E0A472D4A15AE1A /* DKImagePickerController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DKImagePickerController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		2CEE5AA55C40EE7C7556BF0614509C8E /* DKAssetGroupDetailVC.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DKAssetGroupDetailVC.swift; path = DKImagePickerController/View/DKAssetGroupDetailVC.swift; sourceTree = "<group>"; };
-		2E39FE056CA9FCC5AA5BECC5A5A8F798 /* DKCameraResource.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = DKCameraResource.bundle; path = DKCamera/DKCameraResource.bundle; sourceTree = "<group>"; };
+		24B8173DA770640C13F92A47B0967617 /* RMDateSelectionViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RMDateSelectionViewController.m; path = RMDateSelectionViewController/RMDateSelectionViewController.m; sourceTree = "<group>"; };
+		24BB9C6BEA29B9AAC77F12DE97B12DA3 /* DKImagePickerController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DKImagePickerController-prefix.pch"; sourceTree = "<group>"; };
+		24FF718A959DA320A3FE8513737CDB34 /* DKCameraResource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DKCameraResource.swift; path = DKCamera/DKCameraResource.swift; sourceTree = "<group>"; };
+		29E22600F708BE6649D0DA679735D3AA /* RMDateSelectionViewController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RMDateSelectionViewController-dummy.m"; sourceTree = "<group>"; };
+		2A185D7472DBB6491D533F4EF3D07F58 /* DKImagePickerController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = DKImagePickerController.modulemap; sourceTree = "<group>"; };
+		2FFD1BABF4BC77075D8E861054A72C7C /* DKGroupDataManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DKGroupDataManager.swift; path = DKImageManager/Data/DKGroupDataManager.swift; sourceTree = "<group>"; };
 		30F46DD3B06113AFCCF9034BBB180C1B /* Pods-Parse Dashboard for iOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Parse Dashboard for iOS-umbrella.h"; sourceTree = "<group>"; };
-		3202A2204C3F93965E25816242636077 /* RMActionController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RMActionController.m; path = RMActionController/RMActionController.m; sourceTree = "<group>"; };
-		370E780BBDA57973C5717BD40B8F27B3 /* SwiftyJSON.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = SwiftyJSON.modulemap; sourceTree = "<group>"; };
-		371FE25CBC9208F475BB9C26B01813A8 /* RMActionControllerTransition.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RMActionControllerTransition.h; path = RMActionController/Animations/RMActionControllerTransition.h; sourceTree = "<group>"; };
-		3BD3771A82AC2FE8080DA0832EBB1F6D /* RMActionController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RMActionController.xcconfig; sourceTree = "<group>"; };
-		403A2DC7615D5230127AB232FA97B53C /* RMDateSelectionViewController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RMDateSelectionViewController-dummy.m"; sourceTree = "<group>"; };
+		323EFF6995D4CCDC28D4A3CF6702DFA8 /* RMActionController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RMActionController.m; path = RMActionController/RMActionController.m; sourceTree = "<group>"; };
+		3907680EEFE3635892E281A8B1EE1719 /* BioMetricAuthenticator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BioMetricAuthenticator.swift; path = BiometricAuthentication/BiometricAuthentication/Authentication/BioMetricAuthenticator.swift; sourceTree = "<group>"; };
+		3C65237D94C3C628196B814B4912956F /* RMActionController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RMActionController-dummy.m"; sourceTree = "<group>"; };
+		3CF54832CE8FCAE1DBF5174805507E43 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		41D8A22EFC905B9C2D26922CBE476657 /* RMImageAction.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RMImageAction.h; path = RMActionController/Actions/RMImageAction.h; sourceTree = "<group>"; };
 		421367D18C0F53067A638CB50C051C4A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		484C42F15F7C33C11907E183F62FC06D /* DKImagePickerControllerDefaultUIDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DKImagePickerControllerDefaultUIDelegate.swift; path = DKImagePickerController/DKImagePickerControllerDefaultUIDelegate.swift; sourceTree = "<group>"; };
-		48660083A487BA5467C08042CC15A8F0 /* RMImageAction.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RMImageAction.m; path = RMActionController/Actions/RMImageAction.m; sourceTree = "<group>"; };
-		4AEDF00373BBDEEE5BE318E050F531E2 /* RMActionController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RMActionController.h; path = RMActionController/RMActionController.h; sourceTree = "<group>"; };
-		4B4CC2FBAAB9257A54BB99AD30A63E08 /* RMDateSelectionViewController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RMDateSelectionViewController.xcconfig; sourceTree = "<group>"; };
-		4C4F5786DD111CCD24DA614D4037C828 /* DKGroupDataManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DKGroupDataManager.swift; path = DKImageManager/Data/DKGroupDataManager.swift; sourceTree = "<group>"; };
-		4C824E77405302D9F1E98AFBDDA8D5DE /* SwiftyJSON.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftyJSON.xcconfig; sourceTree = "<group>"; };
-		4E1DD973FD9DDAE6E190751A04E24E12 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		42339B829C9E246548B7A31482F23234 /* DKImagePickerController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = DKImagePickerController.framework; path = DKImagePickerController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		48CC8EAD99600B40FAB5A97F23472F33 /* UIView+RMActionController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+RMActionController.h"; path = "RMActionController/Categories/UIView+RMActionController.h"; sourceTree = "<group>"; };
+		4C9D411751E93BA86DCAD05BB36D216C /* DKAssetGroupDetailVideoCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DKAssetGroupDetailVideoCell.swift; path = DKImagePickerController/View/Cell/DKAssetGroupDetailVideoCell.swift; sourceTree = "<group>"; };
+		4D3477D16DC754C3B457F9104749202D /* DKAssetGroupDetailVC.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DKAssetGroupDetailVC.swift; path = DKImagePickerController/View/DKAssetGroupDetailVC.swift; sourceTree = "<group>"; };
 		4E638F5D1935E42DDBB76E15D7AC2602 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
-		5209B4E76EDEE8590273FAB172C024DD /* DKCameraResource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DKCameraResource.swift; path = DKCamera/DKCameraResource.swift; sourceTree = "<group>"; };
-		56F9434A493E964D2E5E89D03A242D8D /* RMDateSelectionViewController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = RMDateSelectionViewController.modulemap; sourceTree = "<group>"; };
-		57B710F89B7D712355D02597B474515D /* SwiftyJSON-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyJSON-prefix.pch"; sourceTree = "<group>"; };
-		594102136486295085FA307C8EE00391 /* RMGroupedAction.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RMGroupedAction.m; path = "RMActionController/Grouping Actions/RMGroupedAction.m"; sourceTree = "<group>"; };
+		4F97DC3B6E296E8A31D6396341E55495 /* DKAssetGroupGridLayout.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DKAssetGroupGridLayout.swift; path = DKImagePickerController/View/DKAssetGroupGridLayout.swift; sourceTree = "<group>"; };
+		5187094FEF4D089CE0C37F9AD0F880E2 /* RMAction+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "RMAction+Private.h"; path = "RMActionController/Private/RMAction+Private.h"; sourceTree = "<group>"; };
+		51AAA8522A0174FE3565CEA81C44223F /* RMActionController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = RMActionController.modulemap; sourceTree = "<group>"; };
+		54092F7AB0661A0BD9C5C4F920A2A762 /* SwiftyJSON-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftyJSON-dummy.m"; sourceTree = "<group>"; };
+		5442BAA896BBBEF39448554F1E3A17B4 /* RMActionController+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "RMActionController+Private.h"; path = "RMActionController/Private/RMActionController+Private.h"; sourceTree = "<group>"; };
 		5AC96ACC798CF2450CDE639A49954824 /* Pods-Parse Dashboard for iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Parse Dashboard for iOS.debug.xcconfig"; sourceTree = "<group>"; };
 		5D051A7EAA0DFF60DEBE311BFEE307FE /* Pods-Parse Dashboard for iOS-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Parse Dashboard for iOS-acknowledgements.plist"; sourceTree = "<group>"; };
-		606E595878256BAD09FE172CD897729C /* RMActionController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RMActionController-dummy.m"; sourceTree = "<group>"; };
-		6382C216C451022B4EA468E218107A70 /* SwiftyJSON.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftyJSON.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		63C12665F4F053FE6FD86604A637AFBF /* SwiftyJSON.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftyJSON.swift; path = Source/SwiftyJSON.swift; sourceTree = "<group>"; };
-		6A21E1E0F6BF1DE6DC379B152934F179 /* RMGroupedAction.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RMGroupedAction.h; path = "RMActionController/Grouping Actions/RMGroupedAction.h"; sourceTree = "<group>"; };
-		75D6C602355A02978F99903161D38C1E /* DKCamera.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DKCamera.swift; path = DKCamera/DKCamera.swift; sourceTree = "<group>"; };
-		79E944FB75E967205C5B77F9CBCC8338 /* DKImagePickerController.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = DKImagePickerController.bundle; path = DKImagePickerController/DKImagePickerController.bundle; sourceTree = "<group>"; };
-		7B3DE37733F5FC9EE8EC8A398DCCE962 /* DKImageResource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DKImageResource.swift; path = DKImagePickerController/DKImageResource.swift; sourceTree = "<group>"; };
-		7C2091723B341890BF06915BC7F25768 /* NSProcessInfo+RMActionController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSProcessInfo+RMActionController.h"; path = "RMActionController/Categories/NSProcessInfo+RMActionController.h"; sourceTree = "<group>"; };
-		7D098FC3140177912062EA99B3D082F9 /* DKAssetGroupCellItemProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DKAssetGroupCellItemProtocol.swift; path = DKImagePickerController/View/Cell/DKAssetGroupCellItemProtocol.swift; sourceTree = "<group>"; };
+		6557D41A171AABBAB2DBD1C85071A95A /* SwiftyJSON-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyJSON-prefix.pch"; sourceTree = "<group>"; };
+		65D19392268A76E1111F1BFD8D54F19F /* SwiftyJSON.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftyJSON.xcconfig; sourceTree = "<group>"; };
+		6B148BB225DF953DA6370C49864002F0 /* RMAction.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RMAction.m; path = RMActionController/Actions/RMAction.m; sourceTree = "<group>"; };
+		6DE77609F6F5EECB608DD35E2ABAA3F1 /* BiometricAuthenticationConstants.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BiometricAuthenticationConstants.swift; path = BiometricAuthentication/BiometricAuthentication/Constants/BiometricAuthenticationConstants.swift; sourceTree = "<group>"; };
+		725F3DFC25A0BEE2724EB2FC764CD45E /* SwiftyJSON.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftyJSON.swift; path = Source/SwiftyJSON.swift; sourceTree = "<group>"; };
+		73C31968D2D23F8756846DD4DFE43C43 /* RMActionController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RMActionController-prefix.pch"; sourceTree = "<group>"; };
+		7879C53025C4BD81A1FCF35192B05C4D /* DKImagePickerController.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = DKImagePickerController.bundle; path = DKImagePickerController/DKImagePickerController.bundle; sourceTree = "<group>"; };
+		7A7B4689416059990F01AE5F46783CAD /* RMScrollableGroupedAction.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RMScrollableGroupedAction.m; path = "RMActionController/Grouping Actions/RMScrollableGroupedAction.m"; sourceTree = "<group>"; };
 		7DF04FB5F0345521E26D107B39F1D2E7 /* Pods-Parse Dashboard for iOS-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Parse Dashboard for iOS-frameworks.sh"; sourceTree = "<group>"; };
-		89501FA36341236AC6145B274D20E0F0 /* DKImagePickerController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DKImagePickerController-umbrella.h"; sourceTree = "<group>"; };
+		8247E250004543EA53BF3029C53EEBC1 /* DKImagePickerController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DKImagePickerController-umbrella.h"; sourceTree = "<group>"; };
+		8269EB2455D855B66EDD24086AF6599F /* DKImagePickerController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DKImagePickerController-dummy.m"; sourceTree = "<group>"; };
+		8535514CA0DD9C657096A54CFB0C7213 /* SwiftyJSON-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyJSON-umbrella.h"; sourceTree = "<group>"; };
+		88E3969EE3A407EFCD096AD6F8222EDF /* DKCamera.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DKCamera.swift; path = DKCamera/DKCamera.swift; sourceTree = "<group>"; };
+		8A4F31840CFF2EABD92365700897BF40 /* BiometricAuthentication-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BiometricAuthentication-prefix.pch"; sourceTree = "<group>"; };
+		8C344C2E756D31A80BC2DF18DC7AA05B /* DKAsset.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DKAsset.swift; path = DKImageManager/Data/Model/DKAsset.swift; sourceTree = "<group>"; };
+		8CCD965326631C02D204C0DAB2F0179C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8D999B8A4AF17153B0F82A6EE315E49E /* RMDateSelectionViewController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = RMDateSelectionViewController.modulemap; sourceTree = "<group>"; };
 		8E1CAD964C8D50A587835E016B2C2F9A /* Pods-Parse Dashboard for iOS-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Parse Dashboard for iOS-resources.sh"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		93FA876358BFFD4A4EA41A4AC464F37F /* RMActionController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RMActionController-prefix.pch"; sourceTree = "<group>"; };
-		9948CB178989033542C3E61D0BC3F5BC /* RMAction+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "RMAction+Private.h"; path = "RMActionController/Private/RMAction+Private.h"; sourceTree = "<group>"; };
-		99FAAE5C6A6D4585189282E91A7D835F /* DKAssetGroupDetailBaseCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DKAssetGroupDetailBaseCell.swift; path = DKImagePickerController/View/Cell/DKAssetGroupDetailBaseCell.swift; sourceTree = "<group>"; };
-		9A7708E850F516ED67FE21684827A1DA /* Pods_Parse_Dashboard_for_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Parse_Dashboard_for_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		9B499C93EF153DE25A58A423900A8980 /* DKAssetGroupDetailCameraCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DKAssetGroupDetailCameraCell.swift; path = DKImagePickerController/View/Cell/DKAssetGroupDetailCameraCell.swift; sourceTree = "<group>"; };
-		9D161ECF7CF0FD800AA0E4A75DD71768 /* DKAssetGroupDetailImageCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DKAssetGroupDetailImageCell.swift; path = DKImagePickerController/View/Cell/DKAssetGroupDetailImageCell.swift; sourceTree = "<group>"; };
-		A95B43838D978D8CB232FE5CCA510F88 /* Pods-Parse Dashboard for iOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Parse Dashboard for iOS.modulemap"; sourceTree = "<group>"; };
-		AB766C7D7619465534470FBFDFC868B4 /* DKImagePickerController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DKImagePickerController-prefix.pch"; sourceTree = "<group>"; };
-		B495EA200DD97A5D90CBA54285CE09E1 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B5DB5C6B72CA538AE0A851AFE1045F7A /* SwiftyJSON-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftyJSON-dummy.m"; sourceTree = "<group>"; };
-		B69A45F38084C8EA1260981E12C747B9 /* RMDateSelectionViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RMDateSelectionViewController.h; path = RMDateSelectionViewController/RMDateSelectionViewController.h; sourceTree = "<group>"; };
-		B80B9E78C46510F143F2DF3C0271B462 /* UIView+RMActionController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+RMActionController.m"; path = "RMActionController/Categories/UIView+RMActionController.m"; sourceTree = "<group>"; };
-		B85BEBA6D4288BBB362A1D7137F539B6 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		BB876E423440EA06490C18864DF50581 /* RMDateSelectionViewController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RMDateSelectionViewController-prefix.pch"; sourceTree = "<group>"; };
-		BD03AC18783CC646114283E0587CE879 /* RMActionController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RMActionController-umbrella.h"; sourceTree = "<group>"; };
-		CACE2343A7A794F7B13AAB9EBA3B7686 /* RMActionController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = RMActionController.modulemap; sourceTree = "<group>"; };
+		912615D157B7422B18422789B1D7E354 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93BDFB1423ED218F697B024F28952FED /* RMActionControllerTransition.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RMActionControllerTransition.h; path = RMActionController/Animations/RMActionControllerTransition.h; sourceTree = "<group>"; };
+		950F3C45F657678E49F48FCF029E9D00 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		95BDE214F82B429967548BCB146967A1 /* NSProcessInfo+RMActionController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSProcessInfo+RMActionController.m"; path = "RMActionController/Categories/NSProcessInfo+RMActionController.m"; sourceTree = "<group>"; };
+		A276D8D19D71DC4821E7DA17B375042A /* BiometricAuthentication-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BiometricAuthentication-dummy.m"; sourceTree = "<group>"; };
+		A2DB698891A62D18E2612C63F7CB3DA1 /* RMDateSelectionViewController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RMDateSelectionViewController-prefix.pch"; sourceTree = "<group>"; };
+		A95B43838D978D8CB232FE5CCA510F88 /* Pods-Parse Dashboard for iOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-Parse Dashboard for iOS.modulemap"; sourceTree = "<group>"; };
+		AA81318DFB8772CEAE866F412539CD26 /* DKAssetGroupDetailImageCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DKAssetGroupDetailImageCell.swift; path = DKImagePickerController/View/Cell/DKAssetGroupDetailImageCell.swift; sourceTree = "<group>"; };
+		AE84D3A2F151F660D64F99F509B39E58 /* SwiftyJSON.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SwiftyJSON.framework; path = SwiftyJSON.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF8083181213337BF3980A3B899CD406 /* BiometricAuthentication-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BiometricAuthentication-umbrella.h"; sourceTree = "<group>"; };
+		B2C7EEFE8D1F06A674110CAC213CA529 /* NSProcessInfo+RMActionController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSProcessInfo+RMActionController.h"; path = "RMActionController/Categories/NSProcessInfo+RMActionController.h"; sourceTree = "<group>"; };
+		B59B71C94BE4B2D1D2BBC6BE4A0B4A58 /* RMActionController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RMActionController.h; path = RMActionController/RMActionController.h; sourceTree = "<group>"; };
+		B7E13AA3DEEC8B639E1D63B4C1F343D3 /* UIView+RMActionController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+RMActionController.m"; path = "RMActionController/Categories/UIView+RMActionController.m"; sourceTree = "<group>"; };
+		BA6FACF040FCA00D8FA442390C2D4D77 /* RMActionController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = RMActionController.framework; path = RMActionController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC19CCACC783F9F75684F9E58D1A3974 /* DKAssetGroupListVC.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DKAssetGroupListVC.swift; path = DKImagePickerController/View/DKAssetGroupListVC.swift; sourceTree = "<group>"; };
+		BC339EA1F181B0B23B240E9EC8634BE4 /* RMDateSelectionViewController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RMDateSelectionViewController.xcconfig; sourceTree = "<group>"; };
+		BFE95BD6632887B8948065C72F0300B5 /* DKAssetGroupCellItemProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DKAssetGroupCellItemProtocol.swift; path = DKImagePickerController/View/Cell/DKAssetGroupCellItemProtocol.swift; sourceTree = "<group>"; };
+		C0A24F8E5B8C63638E80324AAFF8C226 /* DKAssetGroupDetailBaseCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DKAssetGroupDetailBaseCell.swift; path = DKImagePickerController/View/Cell/DKAssetGroupDetailBaseCell.swift; sourceTree = "<group>"; };
+		C176FA39E1FBDDF94EB87DE641B80140 /* DKPermissionView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DKPermissionView.swift; path = DKImagePickerController/View/DKPermissionView.swift; sourceTree = "<group>"; };
+		C1AD4513F1F53ECA325D66C72EB23E72 /* DKImagePickerController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DKImagePickerController.h; path = DKImagePickerController/DKImagePickerController.h; sourceTree = "<group>"; };
+		C32AD0B39FB1A3C801CDB80042603D88 /* RMGroupedAction.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RMGroupedAction.m; path = "RMActionController/Grouping Actions/RMGroupedAction.m"; sourceTree = "<group>"; };
+		C9C68B79DD7D48E6A3605CB1E5F76393 /* BiometricAuthentication.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BiometricAuthentication.xcconfig; sourceTree = "<group>"; };
+		CA336B16135C27A41F89CA3BB0778743 /* RMActionController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RMActionController-umbrella.h"; sourceTree = "<group>"; };
+		CA6C690F48FE881776B90CFAC04A503F /* DKImageManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DKImageManager.swift; path = DKImageManager/DKImageManager.swift; sourceTree = "<group>"; };
+		CA6E7735918D2792947829A0489B332B /* Pods_Parse_Dashboard_for_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Parse_Dashboard_for_iOS.framework; path = "Pods-Parse Dashboard for iOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CAEEEC5A4F8E05AAC8EC77860020D32E /* Pods-Parse Dashboard for iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Parse Dashboard for iOS.release.xcconfig"; sourceTree = "<group>"; };
-		CD140FF935637C047B3B90ADF6F12888 /* RMAction.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RMAction.h; path = RMActionController/Actions/RMAction.h; sourceTree = "<group>"; };
-		CDA0D4576329B67C04C3791232D59F04 /* RMDateSelectionViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RMDateSelectionViewController.m; path = RMDateSelectionViewController/RMDateSelectionViewController.m; sourceTree = "<group>"; };
-		D049C0F11B1C8293DC7B70D5D3862BC5 /* RMActionController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RMActionController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D2282A7A0F2B283160EA261C356897BC /* SwiftyJSON-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyJSON-umbrella.h"; sourceTree = "<group>"; };
-		D286AE685229A245FF698CADF4EEB203 /* RMDateSelectionViewController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RMDateSelectionViewController-umbrella.h"; sourceTree = "<group>"; };
-		D43964EE8D4DA2501B20F332E3316287 /* DKAssetGroupGridLayout.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DKAssetGroupGridLayout.swift; path = DKImagePickerController/View/DKAssetGroupGridLayout.swift; sourceTree = "<group>"; };
-		D488C1935D89DEAC7AEEF5D220F503F1 /* DKPermissionView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DKPermissionView.swift; path = DKImagePickerController/View/DKPermissionView.swift; sourceTree = "<group>"; };
-		D5AFB054C9B851CDBBF316C14F492E11 /* DKImagePickerController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DKImagePickerController-dummy.m"; sourceTree = "<group>"; };
-		DBBE67F92394D7A29A996887348748E3 /* DKImagePickerController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DKImagePickerController.swift; path = DKImagePickerController/DKImagePickerController.swift; sourceTree = "<group>"; };
+		D5530021B7ADA47A3B8646B9F04F1934 /* DKImagePickerController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DKImagePickerController.swift; path = DKImagePickerController/DKImagePickerController.swift; sourceTree = "<group>"; };
+		DC16F2F4F92E4578120ED45FC7254D06 /* DKAssetGroupDetailCameraCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DKAssetGroupDetailCameraCell.swift; path = DKImagePickerController/View/Cell/DKAssetGroupDetailCameraCell.swift; sourceTree = "<group>"; };
+		DCAA03927276DC591F3F1D58CA6B49A5 /* RMScrollableGroupedAction.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RMScrollableGroupedAction.h; path = "RMActionController/Grouping Actions/RMScrollableGroupedAction.h"; sourceTree = "<group>"; };
+		DCBB3386A442E20061DB7CC56709FF53 /* AuthenticationErrors.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AuthenticationErrors.swift; path = BiometricAuthentication/BiometricAuthentication/Authentication/AuthenticationErrors.swift; sourceTree = "<group>"; };
 		DEAA2C96C5D1B8D9E40C0EA7540209A6 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		E152F7B98ABBD4E067B244E875C0B3CA /* RMDateSelectionViewController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RMDateSelectionViewController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E37D07D9CDEE1618CA3AB76D7133A1C5 /* RMScrollableGroupedAction.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RMScrollableGroupedAction.h; path = "RMActionController/Grouping Actions/RMScrollableGroupedAction.h"; sourceTree = "<group>"; };
+		E1C5E554EB28A354ABF06E45416D39B7 /* RMActionController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RMActionController.xcconfig; sourceTree = "<group>"; };
+		E5F43F8FC990E5F705D00CEE0B35BCEF /* RMDateSelectionViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RMDateSelectionViewController.h; path = RMDateSelectionViewController/RMDateSelectionViewController.h; sourceTree = "<group>"; };
+		E976B329BC601162E33229919E621278 /* DKAssetGroup.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DKAssetGroup.swift; path = DKImageManager/Data/Model/DKAssetGroup.swift; sourceTree = "<group>"; };
 		ECBB10E063194C44CCDD0679F242367F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		EEB65739CD005E767795A181E1618E49 /* DKCameraResource.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = DKCameraResource.bundle; path = DKCamera/DKCameraResource.bundle; sourceTree = "<group>"; };
+		F0D1A34BCF35FD6F52C2F5BCA794E55A /* RMImageAction.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RMImageAction.m; path = RMActionController/Actions/RMImageAction.m; sourceTree = "<group>"; };
 		F100C4C999EF2F5A2AF8F1D2FAF76ADB /* Pods-Parse Dashboard for iOS-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Parse Dashboard for iOS-acknowledgements.markdown"; sourceTree = "<group>"; };
-		F39BA9DA7E8C91B67CBFB07D46EAF27D /* RMActionControllerTransition.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RMActionControllerTransition.m; path = RMActionController/Animations/RMActionControllerTransition.m; sourceTree = "<group>"; };
-		F455713E59A92BB69BE68EE1CCD8BBAF /* DKAssetGroupDetailVideoCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DKAssetGroupDetailVideoCell.swift; path = DKImagePickerController/View/Cell/DKAssetGroupDetailVideoCell.swift; sourceTree = "<group>"; };
-		FA13F9F025785693BDEEB717A4AFE2B6 /* DKAssetGroupListVC.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DKAssetGroupListVC.swift; path = DKImagePickerController/View/DKAssetGroupListVC.swift; sourceTree = "<group>"; };
-		FCA2255B4EC59C9839DAA91E86934063 /* DKImagePickerController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DKImagePickerController.xcconfig; sourceTree = "<group>"; };
+		F628C88301EF6D029EACCE9836CD7CD7 /* DKPopoverViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DKPopoverViewController.swift; path = DKImagePickerController/DKPopoverViewController.swift; sourceTree = "<group>"; };
+		FA646A00A7738A4F16860E77947FE3B9 /* RMDateSelectionViewController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RMDateSelectionViewController-umbrella.h"; sourceTree = "<group>"; };
+		FACBB55A47903B6E96636C9CA5FC0CD7 /* RMAction.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RMAction.h; path = RMActionController/Actions/RMAction.h; sourceTree = "<group>"; };
+		FC4DC801EF6FCD99AAA7007EDFEAF6F0 /* RMGroupedAction.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RMGroupedAction.h; path = "RMActionController/Grouping Actions/RMGroupedAction.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		8038F20A743441BCD54A08F095339753 /* Frameworks */ = {
+		0A18859F50F3D0D0CF04637D1ABBE4CD /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7CCC24825F6A431479FB9B7B93EC2E90 /* Foundation.framework in Frameworks */,
-				EDADD194169A459D51B88BF98CEC4BFE /* RMActionController.framework in Frameworks */,
+				CFD165DECCBA87D0A801744CEB788A21 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9698B6BA5590A502461E3421C7B0E22A /* Frameworks */ = {
+		65366CA4E1B9AB8F6F44284B8FC57CA8 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C39BC317591F338A06AE64491BC44E5E /* CoreGraphics.framework in Frameworks */,
-				2ECDBEF89132A87215C09E9BD6FA7AF7 /* Foundation.framework in Frameworks */,
-				D842BFB21F271204D83C92478BB562C3 /* QuartzCore.framework in Frameworks */,
+				DA61EB3E78A1368601F33446CF0D4AF3 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B5275AEAEBCEFB8CDB7C47FAAF88FBB1 /* Frameworks */ = {
+		BA2381C28348BE943C1B9EBADAD44FAC /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				44327E76F9D488AA11A1E976B4D583F2 /* Foundation.framework in Frameworks */,
+				AE7C0AD4F85CFE25A28EA1FDB399A186 /* Foundation.framework in Frameworks */,
+				7ECED97A262EA4717082D77610C43176 /* RMActionController.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -240,121 +261,143 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E0A638381403DC560244209D932AE7A8 /* Frameworks */ = {
+		D7C5F90877C13AE6CE78DBAA09294F8A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2BE944BDB10B431D7FA0C8AFB857B90D /* Foundation.framework in Frameworks */,
+				0C665AC53CA7E5CD6B39C8505D383563 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D979CEA525B5AEDBB049F317038CB600 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7ECCF6B27222FDC0524656EF585A8307 /* CoreGraphics.framework in Frameworks */,
+				691AEC64441C2CB63D9867BE5CB54FF7 /* Foundation.framework in Frameworks */,
+				E47CF3A15F15CFE9B765AC47F1AD3D2B /* QuartzCore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0D381FCA21B4314DF8E8FE06E1E0413C /* Products */ = {
+		12C81CEA1BE9A947C940D5B5C86010E9 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				2C2CD662ED5F72902E0A472D4A15AE1A /* DKImagePickerController.framework */,
-				9A7708E850F516ED67FE21684827A1DA /* Pods_Parse_Dashboard_for_iOS.framework */,
-				D049C0F11B1C8293DC7B70D5D3862BC5 /* RMActionController.framework */,
-				E152F7B98ABBD4E067B244E875C0B3CA /* RMDateSelectionViewController.framework */,
-				6382C216C451022B4EA468E218107A70 /* SwiftyJSON.framework */,
+				2A185D7472DBB6491D533F4EF3D07F58 /* DKImagePickerController.modulemap */,
+				1B1E10AE4B00E5D8078011C7031A0C93 /* DKImagePickerController.xcconfig */,
+				8269EB2455D855B66EDD24086AF6599F /* DKImagePickerController-dummy.m */,
+				24BB9C6BEA29B9AAC77F12DE97B12DA3 /* DKImagePickerController-prefix.pch */,
+				8247E250004543EA53BF3029C53EEBC1 /* DKImagePickerController-umbrella.h */,
+				912615D157B7422B18422789B1D7E354 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/DKImagePickerController";
+			sourceTree = "<group>";
+		};
+		39489F45DF5DD2E24384EB1A9944A6E9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0C6EBA8DEF5DD03369C47D6BD594FF9B /* BiometricAuthentication.framework */,
+				42339B829C9E246548B7A31482F23234 /* DKImagePickerController.framework */,
+				CA6E7735918D2792947829A0489B332B /* Pods_Parse_Dashboard_for_iOS.framework */,
+				BA6FACF040FCA00D8FA442390C2D4D77 /* RMActionController.framework */,
+				148C40C10F41F2375C0BDE0CDF90D286 /* RMDateSelectionViewController.framework */,
+				AE84D3A2F151F660D64F99F509B39E58 /* SwiftyJSON.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		13DD34A102E7FC9FF2E802F018E02A87 /* RMDateSelectionViewController */ = {
+		46B093F2F5713CB6F9E6FBDBB18BAC67 /* DKImagePickerController */ = {
 			isa = PBXGroup;
 			children = (
-				B69A45F38084C8EA1260981E12C747B9 /* RMDateSelectionViewController.h */,
-				CDA0D4576329B67C04C3791232D59F04 /* RMDateSelectionViewController.m */,
-				7EE20180A1B8C7C8DA6770E22C9AACBF /* Support Files */,
+				BFE95BD6632887B8948065C72F0300B5 /* DKAssetGroupCellItemProtocol.swift */,
+				C0A24F8E5B8C63638E80324AAFF8C226 /* DKAssetGroupDetailBaseCell.swift */,
+				DC16F2F4F92E4578120ED45FC7254D06 /* DKAssetGroupDetailCameraCell.swift */,
+				AA81318DFB8772CEAE866F412539CD26 /* DKAssetGroupDetailImageCell.swift */,
+				4D3477D16DC754C3B457F9104749202D /* DKAssetGroupDetailVC.swift */,
+				4C9D411751E93BA86DCAD05BB36D216C /* DKAssetGroupDetailVideoCell.swift */,
+				4F97DC3B6E296E8A31D6396341E55495 /* DKAssetGroupGridLayout.swift */,
+				BC19CCACC783F9F75684F9E58D1A3974 /* DKAssetGroupListVC.swift */,
+				C1AD4513F1F53ECA325D66C72EB23E72 /* DKImagePickerController.h */,
+				D5530021B7ADA47A3B8646B9F04F1934 /* DKImagePickerController.swift */,
+				0A36281124121C46CD83A309B1037DD7 /* DKImagePickerControllerDefaultUIDelegate.swift */,
+				0979DD967713834D23F5AADE136D57B9 /* DKImageResource.swift */,
+				C176FA39E1FBDDF94EB87DE641B80140 /* DKPermissionView.swift */,
+				F628C88301EF6D029EACCE9836CD7CD7 /* DKPopoverViewController.swift */,
+				CA61E6F5E51DAD34D1973D1F6A90F636 /* Camera */,
+				780F54871593DF13DF64545271D481B9 /* ImageManager */,
+				DAF644E7EC5EE1C34C2BD11113EE75E8 /* Resources */,
+				12C81CEA1BE9A947C940D5B5C86010E9 /* Support Files */,
 			);
-			path = RMDateSelectionViewController;
+			name = DKImagePickerController;
+			path = DKImagePickerController;
 			sourceTree = "<group>";
 		};
-		16888915E0D44871469BB6B6B403396F /* Support Files */ = {
+		4ED20689A02BABF8CEA3EF11B1E143A3 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				1DF9B80E47EDECBD9E8CABD6801E6B52 /* Info.plist */,
-				CACE2343A7A794F7B13AAB9EBA3B7686 /* RMActionController.modulemap */,
-				3BD3771A82AC2FE8080DA0832EBB1F6D /* RMActionController.xcconfig */,
-				606E595878256BAD09FE172CD897729C /* RMActionController-dummy.m */,
-				93FA876358BFFD4A4EA41A4AC464F37F /* RMActionController-prefix.pch */,
-				BD03AC18783CC646114283E0587CE879 /* RMActionController-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/RMActionController";
-			sourceTree = "<group>";
-		};
-		21BF094E4250941DCF4F421E6DE6A8FB /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				79E944FB75E967205C5B77F9CBCC8338 /* DKImagePickerController.bundle */,
-			);
-			name = Resources;
-			sourceTree = "<group>";
-		};
-		2694FE2D3D437C2ED7103BC582D8B131 /* RMActionController */ = {
-			isa = PBXGroup;
-			children = (
-				7C2091723B341890BF06915BC7F25768 /* NSProcessInfo+RMActionController.h */,
-				0E7AD11D300C8B399B0C21669125275A /* NSProcessInfo+RMActionController.m */,
-				CD140FF935637C047B3B90ADF6F12888 /* RMAction.h */,
-				0CEE82612467EAB9E461D9AE672ABE41 /* RMAction.m */,
-				9948CB178989033542C3E61D0BC3F5BC /* RMAction+Private.h */,
-				4AEDF00373BBDEEE5BE318E050F531E2 /* RMActionController.h */,
-				3202A2204C3F93965E25816242636077 /* RMActionController.m */,
-				009A0500E4A84EF24A0E8127ECA4A041 /* RMActionController+Private.h */,
-				371FE25CBC9208F475BB9C26B01813A8 /* RMActionControllerTransition.h */,
-				F39BA9DA7E8C91B67CBFB07D46EAF27D /* RMActionControllerTransition.m */,
-				6A21E1E0F6BF1DE6DC379B152934F179 /* RMGroupedAction.h */,
-				594102136486295085FA307C8EE00391 /* RMGroupedAction.m */,
-				1EFA16480090416086886C954A780BE2 /* RMImageAction.h */,
-				48660083A487BA5467C08042CC15A8F0 /* RMImageAction.m */,
-				E37D07D9CDEE1618CA3AB76D7133A1C5 /* RMScrollableGroupedAction.h */,
-				271059B2A135B6C3A48732BAA040AB5A /* RMScrollableGroupedAction.m */,
-				1B8ABD5D1258A9F538FFE0E2EB2D1F48 /* UIView+RMActionController.h */,
-				B80B9E78C46510F143F2DF3C0271B462 /* UIView+RMActionController.m */,
-				16888915E0D44871469BB6B6B403396F /* Support Files */,
-			);
-			path = RMActionController;
-			sourceTree = "<group>";
-		};
-		2BB5088D902047EE3BBB60D68921E0E4 /* ImageManager */ = {
-			isa = PBXGroup;
-			children = (
-				1625AFF5A62B3B1964B1792BCD928272 /* DKAsset.swift */,
-				25F6C68E502FB1D709A398923DCC541F /* DKAssetGroup.swift */,
-				4C4F5786DD111CCD24DA614D4037C828 /* DKGroupDataManager.swift */,
-				1BC427A798D462AC7E3AF9F7EC363533 /* DKImageManager.swift */,
-			);
-			name = ImageManager;
-			sourceTree = "<group>";
-		};
-		462E58443AE7FAFFCFABD69C89242313 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				B495EA200DD97A5D90CBA54285CE09E1 /* Info.plist */,
-				370E780BBDA57973C5717BD40B8F27B3 /* SwiftyJSON.modulemap */,
-				4C824E77405302D9F1E98AFBDDA8D5DE /* SwiftyJSON.xcconfig */,
-				B5DB5C6B72CA538AE0A851AFE1045F7A /* SwiftyJSON-dummy.m */,
-				57B710F89B7D712355D02597B474515D /* SwiftyJSON-prefix.pch */,
-				D2282A7A0F2B283160EA261C356897BC /* SwiftyJSON-umbrella.h */,
+				950F3C45F657678E49F48FCF029E9D00 /* Info.plist */,
+				18078E898B3950AD2D5315E66DDB728E /* SwiftyJSON.modulemap */,
+				65D19392268A76E1111F1BFD8D54F19F /* SwiftyJSON.xcconfig */,
+				54092F7AB0661A0BD9C5C4F920A2A762 /* SwiftyJSON-dummy.m */,
+				6557D41A171AABBAB2DBD1C85071A95A /* SwiftyJSON-prefix.pch */,
+				8535514CA0DD9C657096A54CFB0C7213 /* SwiftyJSON-umbrella.h */,
 			);
 			name = "Support Files";
 			path = "../Target Support Files/SwiftyJSON";
 			sourceTree = "<group>";
 		};
-		65BC0DE6FF2E5CEEA93930065A4B6385 /* Pods */ = {
+		583EEB5AE1021BE2EC263DAB74B574F4 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				A3EFA51DF9ABB994CAAB795DF76412D2 /* DKImagePickerController */,
-				2694FE2D3D437C2ED7103BC582D8B131 /* RMActionController */,
-				13DD34A102E7FC9FF2E802F018E02A87 /* RMDateSelectionViewController */,
-				87C0E835CA4C882F1C576D9BDB4218ED /* SwiftyJSON */,
+				3CF54832CE8FCAE1DBF5174805507E43 /* Info.plist */,
+				51AAA8522A0174FE3565CEA81C44223F /* RMActionController.modulemap */,
+				E1C5E554EB28A354ABF06E45416D39B7 /* RMActionController.xcconfig */,
+				3C65237D94C3C628196B814B4912956F /* RMActionController-dummy.m */,
+				73C31968D2D23F8756846DD4DFE43C43 /* RMActionController-prefix.pch */,
+				CA336B16135C27A41F89CA3BB0778743 /* RMActionController-umbrella.h */,
 			);
-			name = Pods;
+			name = "Support Files";
+			path = "../Target Support Files/RMActionController";
+			sourceTree = "<group>";
+		};
+		61C5250C3F7F780CD3711CDECCC1C38B /* BiometricAuthentication */ = {
+			isa = PBXGroup;
+			children = (
+				DCBB3386A442E20061DB7CC56709FF53 /* AuthenticationErrors.swift */,
+				6DE77609F6F5EECB608DD35E2ABAA3F1 /* BiometricAuthenticationConstants.swift */,
+				3907680EEFE3635892E281A8B1EE1719 /* BioMetricAuthenticator.swift */,
+				C8195B9D7DA671FB602F350E02853A50 /* Support Files */,
+			);
+			name = BiometricAuthentication;
+			path = BiometricAuthentication;
+			sourceTree = "<group>";
+		};
+		6E1DA2C7DC6FFB45C2B5A3D9D8898ADE /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1BA068F0A2F6DEDF5EB56B8BF7DC5D9B /* Info.plist */,
+				8D999B8A4AF17153B0F82A6EE315E49E /* RMDateSelectionViewController.modulemap */,
+				BC339EA1F181B0B23B240E9EC8634BE4 /* RMDateSelectionViewController.xcconfig */,
+				29E22600F708BE6649D0DA679735D3AA /* RMDateSelectionViewController-dummy.m */,
+				A2DB698891A62D18E2612C63F7CB3DA1 /* RMDateSelectionViewController-prefix.pch */,
+				FA646A00A7738A4F16860E77947FE3B9 /* RMDateSelectionViewController-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/RMDateSelectionViewController";
+			sourceTree = "<group>";
+		};
+		780F54871593DF13DF64545271D481B9 /* ImageManager */ = {
+			isa = PBXGroup;
+			children = (
+				8C344C2E756D31A80BC2DF18DC7AA05B /* DKAsset.swift */,
+				E976B329BC601162E33229919E621278 /* DKAssetGroup.swift */,
+				2FFD1BABF4BC77075D8E861054A72C7C /* DKGroupDataManager.swift */,
+				CA6C690F48FE881776B90CFAC04A503F /* DKImageManager.swift */,
+			);
+			name = ImageManager;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
@@ -362,24 +405,10 @@
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				8155C6E01F9FBC57E72144C3FC2A3F00 /* Frameworks */,
-				65BC0DE6FF2E5CEEA93930065A4B6385 /* Pods */,
-				0D381FCA21B4314DF8E8FE06E1E0413C /* Products */,
+				F9D930B005EEF795C0D526EDC497F947 /* Pods */,
+				39489F45DF5DD2E24384EB1A9944A6E9 /* Products */,
 				E0EFD79CA680C13B32723835802B705B /* Targets Support Files */,
 			);
-			sourceTree = "<group>";
-		};
-		7EE20180A1B8C7C8DA6770E22C9AACBF /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				B85BEBA6D4288BBB362A1D7137F539B6 /* Info.plist */,
-				56F9434A493E964D2E5E89D03A242D8D /* RMDateSelectionViewController.modulemap */,
-				4B4CC2FBAAB9257A54BB99AD30A63E08 /* RMDateSelectionViewController.xcconfig */,
-				403A2DC7615D5230127AB232FA97B53C /* RMDateSelectionViewController-dummy.m */,
-				BB876E423440EA06490C18864DF50581 /* RMDateSelectionViewController-prefix.pch */,
-				D286AE685229A245FF698CADF4EEB203 /* RMDateSelectionViewController-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/RMDateSelectionViewController";
 			sourceTree = "<group>";
 		};
 		8155C6E01F9FBC57E72144C3FC2A3F00 /* Frameworks */ = {
@@ -391,58 +420,63 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		87C0E835CA4C882F1C576D9BDB4218ED /* SwiftyJSON */ = {
+		8438CBDD78D44EEDF7351E6E09F29AF3 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				63C12665F4F053FE6FD86604A637AFBF /* SwiftyJSON.swift */,
-				462E58443AE7FAFFCFABD69C89242313 /* Support Files */,
+				EEB65739CD005E767795A181E1618E49 /* DKCameraResource.bundle */,
 			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		8539E2E0BBEF6752A383F2048E44F242 /* SwiftyJSON */ = {
+			isa = PBXGroup;
+			children = (
+				725F3DFC25A0BEE2724EB2FC764CD45E /* SwiftyJSON.swift */,
+				4ED20689A02BABF8CEA3EF11B1E143A3 /* Support Files */,
+			);
+			name = SwiftyJSON;
 			path = SwiftyJSON;
 			sourceTree = "<group>";
 		};
-		A3EFA51DF9ABB994CAAB795DF76412D2 /* DKImagePickerController */ = {
+		A5BB9091BBD61FA2422B201DA6917A50 /* RMDateSelectionViewController */ = {
 			isa = PBXGroup;
 			children = (
-				7D098FC3140177912062EA99B3D082F9 /* DKAssetGroupCellItemProtocol.swift */,
-				99FAAE5C6A6D4585189282E91A7D835F /* DKAssetGroupDetailBaseCell.swift */,
-				9B499C93EF153DE25A58A423900A8980 /* DKAssetGroupDetailCameraCell.swift */,
-				9D161ECF7CF0FD800AA0E4A75DD71768 /* DKAssetGroupDetailImageCell.swift */,
-				2CEE5AA55C40EE7C7556BF0614509C8E /* DKAssetGroupDetailVC.swift */,
-				F455713E59A92BB69BE68EE1CCD8BBAF /* DKAssetGroupDetailVideoCell.swift */,
-				D43964EE8D4DA2501B20F332E3316287 /* DKAssetGroupGridLayout.swift */,
-				FA13F9F025785693BDEEB717A4AFE2B6 /* DKAssetGroupListVC.swift */,
-				1CCDB3CF9BD51A2AF489364B4283D888 /* DKImagePickerController.h */,
-				DBBE67F92394D7A29A996887348748E3 /* DKImagePickerController.swift */,
-				484C42F15F7C33C11907E183F62FC06D /* DKImagePickerControllerDefaultUIDelegate.swift */,
-				7B3DE37733F5FC9EE8EC8A398DCCE962 /* DKImageResource.swift */,
-				D488C1935D89DEAC7AEEF5D220F503F1 /* DKPermissionView.swift */,
-				08EF48FCF619F3C424553B70F7E2A39F /* DKPopoverViewController.swift */,
-				E2DABBDBF2B0DA7377783399DE9F3F5A /* Camera */,
-				2BB5088D902047EE3BBB60D68921E0E4 /* ImageManager */,
-				21BF094E4250941DCF4F421E6DE6A8FB /* Resources */,
-				B070D8D350BE275E2A3E4661F2949775 /* Support Files */,
+				E5F43F8FC990E5F705D00CEE0B35BCEF /* RMDateSelectionViewController.h */,
+				24B8173DA770640C13F92A47B0967617 /* RMDateSelectionViewController.m */,
+				6E1DA2C7DC6FFB45C2B5A3D9D8898ADE /* Support Files */,
 			);
-			path = DKImagePickerController;
+			name = RMDateSelectionViewController;
+			path = RMDateSelectionViewController;
 			sourceTree = "<group>";
 		};
-		B070D8D350BE275E2A3E4661F2949775 /* Support Files */ = {
+		C8195B9D7DA671FB602F350E02853A50 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				0F2150726E17DC2906B017158FFB498E /* DKImagePickerController.modulemap */,
-				FCA2255B4EC59C9839DAA91E86934063 /* DKImagePickerController.xcconfig */,
-				D5AFB054C9B851CDBBF316C14F492E11 /* DKImagePickerController-dummy.m */,
-				AB766C7D7619465534470FBFDFC868B4 /* DKImagePickerController-prefix.pch */,
-				89501FA36341236AC6145B274D20E0F0 /* DKImagePickerController-umbrella.h */,
-				4E1DD973FD9DDAE6E190751A04E24E12 /* Info.plist */,
+				0FB923C52E060CBA41877743851B78E1 /* BiometricAuthentication.modulemap */,
+				C9C68B79DD7D48E6A3605CB1E5F76393 /* BiometricAuthentication.xcconfig */,
+				A276D8D19D71DC4821E7DA17B375042A /* BiometricAuthentication-dummy.m */,
+				8A4F31840CFF2EABD92365700897BF40 /* BiometricAuthentication-prefix.pch */,
+				AF8083181213337BF3980A3B899CD406 /* BiometricAuthentication-umbrella.h */,
+				8CCD965326631C02D204C0DAB2F0179C /* Info.plist */,
 			);
 			name = "Support Files";
-			path = "../Target Support Files/DKImagePickerController";
+			path = "../Target Support Files/BiometricAuthentication";
 			sourceTree = "<group>";
 		};
-		D7318A9F7131E4D5939CA0357B6C20AD /* Resources */ = {
+		CA61E6F5E51DAD34D1973D1F6A90F636 /* Camera */ = {
 			isa = PBXGroup;
 			children = (
-				2E39FE056CA9FCC5AA5BECC5A5A8F798 /* DKCameraResource.bundle */,
+				88E3969EE3A407EFCD096AD6F8222EDF /* DKCamera.swift */,
+				24FF718A959DA320A3FE8513737CDB34 /* DKCameraResource.swift */,
+				8438CBDD78D44EEDF7351E6E09F29AF3 /* Resources */,
+			);
+			name = Camera;
+			sourceTree = "<group>";
+		};
+		DAF644E7EC5EE1C34C2BD11113EE75E8 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				7879C53025C4BD81A1FCF35192B05C4D /* DKImagePickerController.bundle */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -455,16 +489,6 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		E2DABBDBF2B0DA7377783399DE9F3F5A /* Camera */ = {
-			isa = PBXGroup;
-			children = (
-				75D6C602355A02978F99903161D38C1E /* DKCamera.swift */,
-				5209B4E76EDEE8590273FAB172C024DD /* DKCameraResource.swift */,
-				D7318A9F7131E4D5939CA0357B6C20AD /* Resources */,
-			);
-			name = Camera;
-			sourceTree = "<group>";
-		};
 		EBCC1B30022518F68A110F3BD956E4CC /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -475,6 +499,18 @@
 				DEAA2C96C5D1B8D9E40C0EA7540209A6 /* UIKit.framework */,
 			);
 			name = iOS;
+			sourceTree = "<group>";
+		};
+		F9D930B005EEF795C0D526EDC497F947 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				61C5250C3F7F780CD3711CDECCC1C38B /* BiometricAuthentication */,
+				46B093F2F5713CB6F9E6FBDBB18BAC67 /* DKImagePickerController */,
+				FA88E320D3ECBDE2900062B14ACD9044 /* RMActionController */,
+				A5BB9091BBD61FA2422B201DA6917A50 /* RMDateSelectionViewController */,
+				8539E2E0BBEF6752A383F2048E44F242 /* SwiftyJSON */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 		FA229327254B3D23EF3C6E19252523ED /* Pods-Parse Dashboard for iOS */ = {
@@ -495,24 +531,51 @@
 			path = "Target Support Files/Pods-Parse Dashboard for iOS";
 			sourceTree = "<group>";
 		};
+		FA88E320D3ECBDE2900062B14ACD9044 /* RMActionController */ = {
+			isa = PBXGroup;
+			children = (
+				B2C7EEFE8D1F06A674110CAC213CA529 /* NSProcessInfo+RMActionController.h */,
+				95BDE214F82B429967548BCB146967A1 /* NSProcessInfo+RMActionController.m */,
+				FACBB55A47903B6E96636C9CA5FC0CD7 /* RMAction.h */,
+				6B148BB225DF953DA6370C49864002F0 /* RMAction.m */,
+				5187094FEF4D089CE0C37F9AD0F880E2 /* RMAction+Private.h */,
+				B59B71C94BE4B2D1D2BBC6BE4A0B4A58 /* RMActionController.h */,
+				323EFF6995D4CCDC28D4A3CF6702DFA8 /* RMActionController.m */,
+				5442BAA896BBBEF39448554F1E3A17B4 /* RMActionController+Private.h */,
+				93BDFB1423ED218F697B024F28952FED /* RMActionControllerTransition.h */,
+				043BDAB208F19A592D9C98246417F011 /* RMActionControllerTransition.m */,
+				FC4DC801EF6FCD99AAA7007EDFEAF6F0 /* RMGroupedAction.h */,
+				C32AD0B39FB1A3C801CDB80042603D88 /* RMGroupedAction.m */,
+				41D8A22EFC905B9C2D26922CBE476657 /* RMImageAction.h */,
+				F0D1A34BCF35FD6F52C2F5BCA794E55A /* RMImageAction.m */,
+				DCAA03927276DC591F3F1D58CA6B49A5 /* RMScrollableGroupedAction.h */,
+				7A7B4689416059990F01AE5F46783CAD /* RMScrollableGroupedAction.m */,
+				48CC8EAD99600B40FAB5A97F23472F33 /* UIView+RMActionController.h */,
+				B7E13AA3DEEC8B639E1D63B4C1F343D3 /* UIView+RMActionController.m */,
+				583EEB5AE1021BE2EC263DAB74B574F4 /* Support Files */,
+			);
+			name = RMActionController;
+			path = RMActionController;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		0E78F68A193B24F028D11198C2E74627 /* Headers */ = {
+		4FA8C5E18FCF45F0CEFE6B4D89A4924F /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				23920A722D23703D036041D09AD227E4 /* NSProcessInfo+RMActionController.h in Headers */,
-				0895226E80FCD70DAEFBF7F564E0CC3B /* RMAction+Private.h in Headers */,
-				285E72435C759D5C9F9F5A8998C2A51B /* RMAction.h in Headers */,
-				419C5EB28D2E3A743BF4DF13A9C3A923 /* RMActionController+Private.h in Headers */,
-				D9192127D20D5581C79D551ECBF33230 /* RMActionController-umbrella.h in Headers */,
-				7C071A5211D2282A4826CEF9BEF52B41 /* RMActionController.h in Headers */,
-				9524C3AA030D1573FFD13B4E62ACD6BA /* RMActionControllerTransition.h in Headers */,
-				ED991684B7C40575F9278B877C64260C /* RMGroupedAction.h in Headers */,
-				73C5807F7A44DA65E35BE3C356BD2289 /* RMImageAction.h in Headers */,
-				BAEA3BFF18687E6F72118A44479E35AC /* RMScrollableGroupedAction.h in Headers */,
-				1D7713B62F0A357A8CBEDC33FEC48CA2 /* UIView+RMActionController.h in Headers */,
+				81B220B10AADC9852C350AC812B4E43C /* NSProcessInfo+RMActionController.h in Headers */,
+				76CBF40D79D013CAE1AA3B9F12B57115 /* RMAction+Private.h in Headers */,
+				B1DB321115E5E8576FD7813D25916D44 /* RMAction.h in Headers */,
+				19294DD91D015DC3B553ECAF1831230A /* RMActionController+Private.h in Headers */,
+				13AB5E3C9818C49D66F338FC0A4FBC0B /* RMActionController-umbrella.h in Headers */,
+				6735B698B0D6625CDE208E3428857647 /* RMActionController.h in Headers */,
+				0C09A4823660C62A603E013A931B67E8 /* RMActionControllerTransition.h in Headers */,
+				6F0286E2CF3697ACFAD4329AEA82263D /* RMGroupedAction.h in Headers */,
+				56BA2001F191CBD886ED61A91A3EA9BF /* RMImageAction.h in Headers */,
+				D6E7CE866BC4ACD8AD872ED6AB96D591 /* RMScrollableGroupedAction.h in Headers */,
+				91089A814D3960BC18BD6EDFC750EC9F /* UIView+RMActionController.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -525,41 +588,123 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		678888190D6660877FFC3890F75E8DE6 /* Headers */ = {
+		5EEAC4EC0DA5D529CF635B5147C42360 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				59D7E31DB68164C8D6DCC01CCB7918A4 /* SwiftyJSON-umbrella.h in Headers */,
+				64B03E4ADA0ADD63AED40586EA388C12 /* RMDateSelectionViewController-umbrella.h in Headers */,
+				0C9694B251652ADEC4D0E16B021FF2CE /* RMDateSelectionViewController.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DEECD6EB9AA35D22BA90CE4F27C64241 /* Headers */ = {
+		73ED453A371FC623849C7EB6C05614BA /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				431EC32617760CB2AA163E0212F42DF2 /* Pods-Parse Dashboard for iOS-umbrella.h in Headers */,
+				75A02C86488F71DCEED3748E273B0E80 /* Pods-Parse Dashboard for iOS-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FA30D8D29648F4A1592E81EDB16C9904 /* Headers */ = {
+		7FAA9B0D70CFFA082EC3C5E98DD3D461 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EEA0C19D6B5079FAC3276AE80F45022F /* RMDateSelectionViewController-umbrella.h in Headers */,
-				A8AED53503E2FD7E25C1BB6F3A540790 /* RMDateSelectionViewController.h in Headers */,
+				E6EE41D578F5A21CD9A56815D447E5CA /* BiometricAuthentication-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B590D47D440827EE38925A8C618F6A74 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E348C07704B705C9988C971A4CBD057F /* SwiftyJSON-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		A0922A7B99FAFDEB8251B0D3E5DE1F28 /* SwiftyJSON */ = {
+		09F8E087091C60688A3B878681637BC9 /* BiometricAuthentication */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8130492D7D8302DF630160238DAF88FD /* Build configuration list for PBXNativeTarget "SwiftyJSON" */;
+			buildConfigurationList = 7CC43F3FF4D35C524C5B15A77F4DEC5E /* Build configuration list for PBXNativeTarget "BiometricAuthentication" */;
 			buildPhases = (
-				78FA704C9CA2E9071CEC073F09B9B1ED /* Sources */,
-				E0A638381403DC560244209D932AE7A8 /* Frameworks */,
-				678888190D6660877FFC3890F75E8DE6 /* Headers */,
+				DF3090798C858C628A883FDF55F0329C /* Sources */,
+				0A18859F50F3D0D0CF04637D1ABBE4CD /* Frameworks */,
+				7FAA9B0D70CFFA082EC3C5E98DD3D461 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BiometricAuthentication;
+			productName = BiometricAuthentication;
+			productReference = 0C6EBA8DEF5DD03369C47D6BD594FF9B /* BiometricAuthentication.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		279951F4606A1C83881A2178BF01FD12 /* RMActionController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 338BCD6A49F73400DAB6BCC4602F3287 /* Build configuration list for PBXNativeTarget "RMActionController" */;
+			buildPhases = (
+				6D9D39273292D7853B0AFAF5D2852D1C /* Sources */,
+				D979CEA525B5AEDBB049F317038CB600 /* Frameworks */,
+				4FA8C5E18FCF45F0CEFE6B4D89A4924F /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RMActionController;
+			productName = RMActionController;
+			productReference = BA6FACF040FCA00D8FA442390C2D4D77 /* RMActionController.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		3B055668970A1423F45F36C889427DD5 /* Pods-Parse Dashboard for iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0284618A3C9AAE7868BA68D388807217 /* Build configuration list for PBXNativeTarget "Pods-Parse Dashboard for iOS" */;
+			buildPhases = (
+				2A8AE51985C77FD3AB6B396E81D6D3FE /* Sources */,
+				65366CA4E1B9AB8F6F44284B8FC57CA8 /* Frameworks */,
+				73ED453A371FC623849C7EB6C05614BA /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04760339B991F504BE327F2C23A20963 /* PBXTargetDependency */,
+				2F05D7AC06527E2DF63B766534BD03E9 /* PBXTargetDependency */,
+				4969A6878C18757A492A60134A653D44 /* PBXTargetDependency */,
+				9AFCDAA3648C32858D07646F200EC530 /* PBXTargetDependency */,
+				A446E56E20F81BA851C34D0B3089EC93 /* PBXTargetDependency */,
+			);
+			name = "Pods-Parse Dashboard for iOS";
+			productName = "Pods-Parse Dashboard for iOS";
+			productReference = CA6E7735918D2792947829A0489B332B /* Pods_Parse_Dashboard_for_iOS.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		3C19AD3789C94D29215E6CF88D37EA06 /* RMDateSelectionViewController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F5C7C57977DAABE1A4CA47E45351C75B /* Build configuration list for PBXNativeTarget "RMDateSelectionViewController" */;
+			buildPhases = (
+				374742AA6693E4CBDB721ACC1E470474 /* Sources */,
+				BA2381C28348BE943C1B9EBADAD44FAC /* Frameworks */,
+				5EEAC4EC0DA5D529CF635B5147C42360 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				27D56B91C5FBC8CEE4F9D56BDC333BF9 /* PBXTargetDependency */,
+			);
+			name = RMDateSelectionViewController;
+			productName = RMDateSelectionViewController;
+			productReference = 148C40C10F41F2375C0BDE0CDF90D286 /* RMDateSelectionViewController.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		49C6898FDD2500758798F3440964F1CB /* SwiftyJSON */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E5092273FB4C4CF65B14546BA3B8127D /* Build configuration list for PBXNativeTarget "SwiftyJSON" */;
+			buildPhases = (
+				016E79AEAF7D238482AEE7194519DBFA /* Sources */,
+				D7C5F90877C13AE6CE78DBAA09294F8A /* Frameworks */,
+				B590D47D440827EE38925A8C618F6A74 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -567,7 +712,7 @@
 			);
 			name = SwiftyJSON;
 			productName = SwiftyJSON;
-			productReference = 6382C216C451022B4EA468E218107A70 /* SwiftyJSON.framework */;
+			productReference = AE84D3A2F151F660D64F99F509B39E58 /* SwiftyJSON.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		A85101B2D8F83CBBC40FE5CD5A830086 /* DKImagePickerController */ = {
@@ -585,63 +730,7 @@
 			);
 			name = DKImagePickerController;
 			productName = DKImagePickerController;
-			productReference = 2C2CD662ED5F72902E0A472D4A15AE1A /* DKImagePickerController.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		B893E3BD33751BA032A7093BCE5688DE /* RMDateSelectionViewController */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = D34D281B2F1E6AFE45DC375D66DFE670 /* Build configuration list for PBXNativeTarget "RMDateSelectionViewController" */;
-			buildPhases = (
-				FE1A33B541035DEFA12B9AC49AEFA1D6 /* Sources */,
-				8038F20A743441BCD54A08F095339753 /* Frameworks */,
-				FA30D8D29648F4A1592E81EDB16C9904 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				FE5E9F92A7C99F07014EF88D00E51CEE /* PBXTargetDependency */,
-			);
-			name = RMDateSelectionViewController;
-			productName = RMDateSelectionViewController;
-			productReference = E152F7B98ABBD4E067B244E875C0B3CA /* RMDateSelectionViewController.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		CEF38754BF087BACF03BEEF32082A096 /* Pods-Parse Dashboard for iOS */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = DA8E6BC9D7D4E4E546E72FE3EA92FCFE /* Build configuration list for PBXNativeTarget "Pods-Parse Dashboard for iOS" */;
-			buildPhases = (
-				54E70C27A13705AD1F54C4A02D48E7CA /* Sources */,
-				B5275AEAEBCEFB8CDB7C47FAAF88FBB1 /* Frameworks */,
-				DEECD6EB9AA35D22BA90CE4F27C64241 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				F1E3F5920FCC3C510CF6F61CD76FF136 /* PBXTargetDependency */,
-				1434494AA93541A2EA28CDAA98A4198F /* PBXTargetDependency */,
-				490CB8A47CB076AAE8DC22A6BD257F09 /* PBXTargetDependency */,
-				BB4FA0D7E625E83542EFF8D6EF200A7E /* PBXTargetDependency */,
-			);
-			name = "Pods-Parse Dashboard for iOS";
-			productName = "Pods-Parse Dashboard for iOS";
-			productReference = 9A7708E850F516ED67FE21684827A1DA /* Pods_Parse_Dashboard_for_iOS.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		EE81FA852BA4428979055A5BFC4014CC /* RMActionController */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 346A7B69D0850E779E9A68F1D9D38F4F /* Build configuration list for PBXNativeTarget "RMActionController" */;
-			buildPhases = (
-				416C83E6DC719322CBC0F0F201F646E7 /* Sources */,
-				9698B6BA5590A502461E3421C7B0E22A /* Frameworks */,
-				0E78F68A193B24F028D11198C2E74627 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = RMActionController;
-			productName = RMActionController;
-			productReference = D049C0F11B1C8293DC7B70D5D3862BC5 /* RMActionController.framework */;
+			productReference = 42339B829C9E246548B7A31482F23234 /* DKImagePickerController.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -651,7 +740,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0830;
-				LastUpgradeCheck = 0920;
+				LastUpgradeCheck = 0700;
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -661,15 +750,16 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 0D381FCA21B4314DF8E8FE06E1E0413C /* Products */;
+			productRefGroup = 39489F45DF5DD2E24384EB1A9944A6E9 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
+				09F8E087091C60688A3B878681637BC9 /* BiometricAuthentication */,
 				A85101B2D8F83CBBC40FE5CD5A830086 /* DKImagePickerController */,
-				CEF38754BF087BACF03BEEF32082A096 /* Pods-Parse Dashboard for iOS */,
-				EE81FA852BA4428979055A5BFC4014CC /* RMActionController */,
-				B893E3BD33751BA032A7093BCE5688DE /* RMDateSelectionViewController */,
-				A0922A7B99FAFDEB8251B0D3E5DE1F28 /* SwiftyJSON */,
+				3B055668970A1423F45F36C889427DD5 /* Pods-Parse Dashboard for iOS */,
+				279951F4606A1C83881A2178BF01FD12 /* RMActionController */,
+				3C19AD3789C94D29215E6CF88D37EA06 /* RMDateSelectionViewController */,
+				49C6898FDD2500758798F3440964F1CB /* SwiftyJSON */,
 			);
 		};
 /* End PBXProject section */
@@ -687,6 +777,15 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		016E79AEAF7D238482AEE7194519DBFA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CB66F4EFEDF247AAF265B8A154B3265 /* SwiftyJSON-dummy.m in Sources */,
+				A0066B870C4A1F9E9C72D365CAD26034 /* SwiftyJSON.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		099000E6C00248CBBE26ED801E973AD8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -714,87 +813,95 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		416C83E6DC719322CBC0F0F201F646E7 /* Sources */ = {
+		2A8AE51985C77FD3AB6B396E81D6D3FE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F1D62F2E9E006A71D1A915D583BF37DA /* NSProcessInfo+RMActionController.m in Sources */,
-				FEF91EC9424B1EF2818B320F8B97F104 /* RMAction.m in Sources */,
-				3A700D187F164F1195F3843B058C157A /* RMActionController-dummy.m in Sources */,
-				F32E9851828295E1BC612B02402F73CC /* RMActionController.m in Sources */,
-				553E69D4B8D3C41643D5CFA1B48F2CD1 /* RMActionControllerTransition.m in Sources */,
-				B88E6E6A90C50726830F1A84A9627074 /* RMGroupedAction.m in Sources */,
-				44756BD4A65FD23FA1702B8D522BDF02 /* RMImageAction.m in Sources */,
-				F65E60369FB602EBDB6A70FAEAD74079 /* RMScrollableGroupedAction.m in Sources */,
-				35DDDEE6DAB11EF63B7D887236C758D0 /* UIView+RMActionController.m in Sources */,
+				EF7863290FECC5ADCFA659E40B688B97 /* Pods-Parse Dashboard for iOS-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		54E70C27A13705AD1F54C4A02D48E7CA /* Sources */ = {
+		374742AA6693E4CBDB721ACC1E470474 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B0F79FA558303BA9A08DDB4255AD302A /* Pods-Parse Dashboard for iOS-dummy.m in Sources */,
+				F8106EAF862683636904E5551A69BA8A /* RMDateSelectionViewController-dummy.m in Sources */,
+				7C5D016583863702B81818D9967AFF71 /* RMDateSelectionViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		78FA704C9CA2E9071CEC073F09B9B1ED /* Sources */ = {
+		6D9D39273292D7853B0AFAF5D2852D1C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D1D48883CF420D9A5640B982F8450328 /* SwiftyJSON-dummy.m in Sources */,
-				475BCDE4EDDDC3B6138A19906FD664A0 /* SwiftyJSON.swift in Sources */,
+				719B51ADDF4DFF571EE300F7039D12E5 /* NSProcessInfo+RMActionController.m in Sources */,
+				38D55C71EA05277798BE064858BD46F0 /* RMAction.m in Sources */,
+				0EC728AA81227BD43822ACD547924AB3 /* RMActionController-dummy.m in Sources */,
+				9E9FF1E7ABA170013CAAE20C2053EC12 /* RMActionController.m in Sources */,
+				976310ADE2A09CAC496FD8884C33A220 /* RMActionControllerTransition.m in Sources */,
+				2E91DECBE5FD957BD35E14CE4F322496 /* RMGroupedAction.m in Sources */,
+				9B686A7853A48A3E78B4D6D6E745B3CC /* RMImageAction.m in Sources */,
+				FAA801E36C1451DB496031C876589C98 /* RMScrollableGroupedAction.m in Sources */,
+				D276F31AA846E447A56C521FC1EBA332 /* UIView+RMActionController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FE1A33B541035DEFA12B9AC49AEFA1D6 /* Sources */ = {
+		DF3090798C858C628A883FDF55F0329C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7E5976C996106400D68F47DF25BC112B /* RMDateSelectionViewController-dummy.m in Sources */,
-				2F4AE750111E6C5E7BDA1979BC2FECD6 /* RMDateSelectionViewController.m in Sources */,
+				861C4DA1383172332A4A43B4AFEFDC10 /* AuthenticationErrors.swift in Sources */,
+				23AFC33C07D45CFB47B03D13F4BE8A6F /* BiometricAuthentication-dummy.m in Sources */,
+				C09348A6D17868C5B278A576C6C21EE9 /* BiometricAuthenticationConstants.swift in Sources */,
+				8B1D2B08674E7AB076E540A5230F12CC /* BioMetricAuthenticator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		1434494AA93541A2EA28CDAA98A4198F /* PBXTargetDependency */ = {
+		04760339B991F504BE327F2C23A20963 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = BiometricAuthentication;
+			target = 09F8E087091C60688A3B878681637BC9 /* BiometricAuthentication */;
+			targetProxy = DAC75B65AD2C90F45B7EFCB4A2349C85 /* PBXContainerItemProxy */;
+		};
+		27D56B91C5FBC8CEE4F9D56BDC333BF9 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = RMActionController;
-			target = EE81FA852BA4428979055A5BFC4014CC /* RMActionController */;
-			targetProxy = 75C8432FE1A00CDC2911A8E2F91095E9 /* PBXContainerItemProxy */;
+			target = 279951F4606A1C83881A2178BF01FD12 /* RMActionController */;
+			targetProxy = 7CDDC8F6B429F86E7947250F0D804668 /* PBXContainerItemProxy */;
 		};
-		490CB8A47CB076AAE8DC22A6BD257F09 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = RMDateSelectionViewController;
-			target = B893E3BD33751BA032A7093BCE5688DE /* RMDateSelectionViewController */;
-			targetProxy = 59BAE3761B66A366F87FD58FAD7D79FD /* PBXContainerItemProxy */;
-		};
-		BB4FA0D7E625E83542EFF8D6EF200A7E /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = SwiftyJSON;
-			target = A0922A7B99FAFDEB8251B0D3E5DE1F28 /* SwiftyJSON */;
-			targetProxy = F314067C3073EF79ED8814EFD180F526 /* PBXContainerItemProxy */;
-		};
-		F1E3F5920FCC3C510CF6F61CD76FF136 /* PBXTargetDependency */ = {
+		2F05D7AC06527E2DF63B766534BD03E9 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = DKImagePickerController;
 			target = A85101B2D8F83CBBC40FE5CD5A830086 /* DKImagePickerController */;
-			targetProxy = B530B75A4D70ABD277AF314AF76939A2 /* PBXContainerItemProxy */;
+			targetProxy = AD17B0FEB05A686AC6878C6663E64CA6 /* PBXContainerItemProxy */;
 		};
-		FE5E9F92A7C99F07014EF88D00E51CEE /* PBXTargetDependency */ = {
+		4969A6878C18757A492A60134A653D44 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = RMActionController;
-			target = EE81FA852BA4428979055A5BFC4014CC /* RMActionController */;
-			targetProxy = 7D2F4F48F7F9435999FE505981C01DFC /* PBXContainerItemProxy */;
+			target = 279951F4606A1C83881A2178BF01FD12 /* RMActionController */;
+			targetProxy = ABA70361BF5BC416E876369D3A9C3290 /* PBXContainerItemProxy */;
+		};
+		9AFCDAA3648C32858D07646F200EC530 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = RMDateSelectionViewController;
+			target = 3C19AD3789C94D29215E6CF88D37EA06 /* RMDateSelectionViewController */;
+			targetProxy = 01B3778841196F952CEBABE1656D8A5E /* PBXContainerItemProxy */;
+		};
+		A446E56E20F81BA851C34D0B3089EC93 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftyJSON;
+			target = 49C6898FDD2500758798F3440964F1CB /* SwiftyJSON */;
+			targetProxy = 6F3B07E999B647EB7A72E1C0AD3BBC26 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		0BE129FAD3590D2783024F61814DB9C7 /* Release */ = {
+		0AB28CFD39888D5FE65F6A419B0AAC2B /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3BD3771A82AC2FE8080DA0832EBB1F6D /* RMActionController.xcconfig */;
+			baseConfigurationReference = E1C5E554EB28A354ABF06E45416D39B7 /* RMActionController.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -823,9 +930,40 @@
 			};
 			name = Release;
 		};
+		1124810485734C3E65353583278C601A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 65D19392268A76E1111F1BFD8D54F19F /* SwiftyJSON.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftyJSON/SwiftyJSON-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftyJSON/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SwiftyJSON/SwiftyJSON.modulemap";
+				PRODUCT_NAME = SwiftyJSON;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		1723137179CF59EFD60C854E018F0203 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FCA2255B4EC59C9839DAA91E86934063 /* DKImagePickerController.xcconfig */;
+			baseConfigurationReference = 1B1E10AE4B00E5D8078011C7031A0C93 /* DKImagePickerController.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -854,9 +992,9 @@
 			};
 			name = Debug;
 		};
-		2C7D268F6880CD5ED353EF4A5DF94B46 /* Debug */ = {
+		1D56A87FC76E6F8ED1D799A282887F21 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4C824E77405302D9F1E98AFBDDA8D5DE /* SwiftyJSON.xcconfig */;
+			baseConfigurationReference = BC339EA1F181B0B23B240E9EC8634BE4 /* RMDateSelectionViewController.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -867,17 +1005,16 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/SwiftyJSON/SwiftyJSON-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SwiftyJSON/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/RMDateSelectionViewController/RMDateSelectionViewController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/RMDateSelectionViewController/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/SwiftyJSON/SwiftyJSON.modulemap";
-				PRODUCT_NAME = SwiftyJSON;
+				MODULEMAP_FILE = "Target Support Files/RMDateSelectionViewController/RMDateSelectionViewController.modulemap";
+				PRODUCT_NAME = RMDateSelectionViewController;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
@@ -885,9 +1022,9 @@
 			};
 			name = Debug;
 		};
-		557BAA0EEF12FE58F7F24FF5CE0CC009 /* Release */ = {
+		40BA076BA0E0385F0AF7E53F044AC88F /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4C824E77405302D9F1E98AFBDDA8D5DE /* SwiftyJSON.xcconfig */;
+			baseConfigurationReference = C9C68B79DD7D48E6A3605CB1E5F76393 /* BiometricAuthentication.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -898,17 +1035,78 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/SwiftyJSON/SwiftyJSON-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SwiftyJSON/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/BiometricAuthentication/BiometricAuthentication-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/BiometricAuthentication/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/SwiftyJSON/SwiftyJSON.modulemap";
-				PRODUCT_NAME = SwiftyJSON;
+				MODULEMAP_FILE = "Target Support Files/BiometricAuthentication/BiometricAuthentication.modulemap";
+				PRODUCT_NAME = BiometricAuthentication;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6D800D9714FC220DFAFDF5AA16093C0D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E1C5E554EB28A354ABF06E45416D39B7 /* RMActionController.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/RMActionController/RMActionController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/RMActionController/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/RMActionController/RMActionController.modulemap";
+				PRODUCT_NAME = RMActionController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7A6000EAB9AA9DAFBA364A04AA7E6B1C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BC339EA1F181B0B23B240E9EC8634BE4 /* RMDateSelectionViewController.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/RMDateSelectionViewController/RMDateSelectionViewController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/RMDateSelectionViewController/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/RMDateSelectionViewController/RMDateSelectionViewController.modulemap";
+				PRODUCT_NAME = RMDateSelectionViewController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -977,6 +1175,40 @@
 			};
 			name = Debug;
 		};
+		98273AC9BB44CB94DD29404BABEC0173 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5AC96ACC798CF2450CDE639A49954824 /* Pods-Parse Dashboard for iOS.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Parse Dashboard for iOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Parse Dashboard for iOS/Pods-Parse Dashboard for iOS.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Parse_Dashboard_for_iOS;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		98F29E7567052F62660DDD7069ADF73C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -1028,14 +1260,13 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Release;
 		};
-		9BC27B2A4EC76A4933253CECAD882F6B /* Release */ = {
+		A867F46BAD665E1BC9E7B02E1066C5AA /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4B4CC2FBAAB9257A54BB99AD30A63E08 /* RMDateSelectionViewController.xcconfig */;
+			baseConfigurationReference = C9C68B79DD7D48E6A3605CB1E5F76393 /* BiometricAuthentication.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1046,151 +1277,25 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/RMDateSelectionViewController/RMDateSelectionViewController-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/RMDateSelectionViewController/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/BiometricAuthentication/BiometricAuthentication-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/BiometricAuthentication/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/RMDateSelectionViewController/RMDateSelectionViewController.modulemap";
-				PRODUCT_NAME = RMDateSelectionViewController;
+				MODULEMAP_FILE = "Target Support Files/BiometricAuthentication/BiometricAuthentication.modulemap";
+				PRODUCT_NAME = BiometricAuthentication;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		9C9660D6909594952F1CFF70909ADD3F /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3BD3771A82AC2FE8080DA0832EBB1F6D /* RMActionController.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/RMActionController/RMActionController-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/RMActionController/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/RMActionController/RMActionController.modulemap";
-				PRODUCT_NAME = RMActionController;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		B67819EB60D160306B682A135C910E90 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4B4CC2FBAAB9257A54BB99AD30A63E08 /* RMDateSelectionViewController.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/RMDateSelectionViewController/RMDateSelectionViewController-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/RMDateSelectionViewController/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/RMDateSelectionViewController/RMDateSelectionViewController.modulemap";
-				PRODUCT_NAME = RMDateSelectionViewController;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		BED387629226975C8A195EF93E1EB264 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5AC96ACC798CF2450CDE639A49954824 /* Pods-Parse Dashboard for iOS.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-Parse Dashboard for iOS/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Parse Dashboard for iOS/Pods-Parse Dashboard for iOS.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_Parse_Dashboard_for_iOS;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
-		D80FF3AC8D6CC4F32FEBEA4E02E86A86 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = FCA2255B4EC59C9839DAA91E86934063 /* DKImagePickerController.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/DKImagePickerController/DKImagePickerController-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/DKImagePickerController/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/DKImagePickerController/DKImagePickerController.modulemap";
-				PRODUCT_NAME = DKImagePickerController;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		DBC08F8EFA284D008D5AB0AA2867984D /* Release */ = {
+		BAE0E9C838E99F967D68311DDDA75CBD /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = CAEEEC5A4F8E05AAC8EC77860020D32E /* Pods-Parse Dashboard for iOS.release.xcconfig */;
 			buildSettings = {
@@ -1224,9 +1329,82 @@
 			};
 			name = Release;
 		};
+		D80FF3AC8D6CC4F32FEBEA4E02E86A86 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1B1E10AE4B00E5D8078011C7031A0C93 /* DKImagePickerController.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/DKImagePickerController/DKImagePickerController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DKImagePickerController/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/DKImagePickerController/DKImagePickerController.modulemap";
+				PRODUCT_NAME = DKImagePickerController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F9DCCC178192402855FC0D9715E9BA58 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 65D19392268A76E1111F1BFD8D54F19F /* SwiftyJSON.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftyJSON/SwiftyJSON-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftyJSON/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SwiftyJSON/SwiftyJSON.modulemap";
+				PRODUCT_NAME = SwiftyJSON;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		0284618A3C9AAE7868BA68D388807217 /* Build configuration list for PBXNativeTarget "Pods-Parse Dashboard for iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				98273AC9BB44CB94DD29404BABEC0173 /* Debug */,
+				BAE0E9C838E99F967D68311DDDA75CBD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -1236,20 +1414,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		346A7B69D0850E779E9A68F1D9D38F4F /* Build configuration list for PBXNativeTarget "RMActionController" */ = {
+		338BCD6A49F73400DAB6BCC4602F3287 /* Build configuration list for PBXNativeTarget "RMActionController" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9C9660D6909594952F1CFF70909ADD3F /* Debug */,
-				0BE129FAD3590D2783024F61814DB9C7 /* Release */,
+				6D800D9714FC220DFAFDF5AA16093C0D /* Debug */,
+				0AB28CFD39888D5FE65F6A419B0AAC2B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8130492D7D8302DF630160238DAF88FD /* Build configuration list for PBXNativeTarget "SwiftyJSON" */ = {
+		7CC43F3FF4D35C524C5B15A77F4DEC5E /* Build configuration list for PBXNativeTarget "BiometricAuthentication" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2C7D268F6880CD5ED353EF4A5DF94B46 /* Debug */,
-				557BAA0EEF12FE58F7F24FF5CE0CC009 /* Release */,
+				A867F46BAD665E1BC9E7B02E1066C5AA /* Debug */,
+				40BA076BA0E0385F0AF7E53F044AC88F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1263,20 +1441,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D34D281B2F1E6AFE45DC375D66DFE670 /* Build configuration list for PBXNativeTarget "RMDateSelectionViewController" */ = {
+		E5092273FB4C4CF65B14546BA3B8127D /* Build configuration list for PBXNativeTarget "SwiftyJSON" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B67819EB60D160306B682A135C910E90 /* Debug */,
-				9BC27B2A4EC76A4933253CECAD882F6B /* Release */,
+				1124810485734C3E65353583278C601A /* Debug */,
+				F9DCCC178192402855FC0D9715E9BA58 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DA8E6BC9D7D4E4E546E72FE3EA92FCFE /* Build configuration list for PBXNativeTarget "Pods-Parse Dashboard for iOS" */ = {
+		F5C7C57977DAABE1A4CA47E45351C75B /* Build configuration list for PBXNativeTarget "RMDateSelectionViewController" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				BED387629226975C8A195EF93E1EB264 /* Debug */,
-				DBC08F8EFA284D008D5AB0AA2867984D /* Release */,
+				1D56A87FC76E6F8ED1D799A282887F21 /* Debug */,
+				7A6000EAB9AA9DAFBA364A04AA7E6B1C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

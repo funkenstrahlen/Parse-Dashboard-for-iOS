@@ -166,7 +166,10 @@ open class DownloadViewer: UIView, URLSessionDownloadDelegate {
     open func urlSession(_ session: URLSession, downloadTask: URLSessionDownloadTask, didWriteData bytesWritten: Int64, totalBytesWritten: Int64, totalBytesExpectedToWrite: Int64) {
         
         DispatchQueue.main.async {
-            self.progress = CGFloat(totalBytesWritten) / CGFloat(totalBytesExpectedToWrite)
+            let progress = CGFloat(totalBytesWritten) / CGFloat(totalBytesExpectedToWrite)
+            if progress <= 1 && progress >= 0 {
+                self.progress = progress
+            }
         }
     }
     

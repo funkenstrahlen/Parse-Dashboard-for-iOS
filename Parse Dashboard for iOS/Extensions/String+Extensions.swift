@@ -90,12 +90,4 @@ extension String {
         return "isNew"
     }
 
-    static var isProtected: String {
-        return "isProtected"
-    }
-    
-    static var password: String {
-        return "password"
-    }
-
 }

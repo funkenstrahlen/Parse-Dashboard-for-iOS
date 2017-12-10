@@ -25,7 +25,7 @@
 //  Created by Nathan Tannar on 12/4/17.
 //
 
-import Foundation
+import UIKit
 
 class Auth: NSObject {
     
@@ -33,13 +33,35 @@ class Auth: NSObject {
     
     // MARK: - Properties
     
-    var accessEnabled: Bool = false
+    var accessEnabled: Bool {
+        return isGranted || !isSetup
+    }
+    
+    private var passkey: Int = 0
+    
+    private var isGranted: Bool = false
+    
+    private var isSetup: Bool = false
     
     // MARK: - Initialization
     
     private override init() {
         super.init()
+        self.isSetup = UserDefaults.standard.bool(forKey: "isSetup")
+        self.passkey = UserDefaults.standard.integer(forKey: "passkey")
     }
     
     // MARK: - Methods
+    
+    func unlock(over viewController: UIViewController) {
+        
+    }
+    
+    func lock() {
+        isGranted = false
+    }
+    
+    func destroy(over viewController: UIViewController) {
+        isSetup = false
+    }
 }

@@ -38,7 +38,43 @@ class AuthViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        view.backgroundColor = .white
+        setupNavigationBar()
+    }
+    
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
         
+    }
+    
+    private func setupNavigationBar() {
+        
+        navigationItem.leftBarButtonItem = UIBarButtonItem(barButtonSystemItem: .done,
+                                                           target: self,
+                                                           action: #selector(dismissAuth))
+    }
+    
+    // MARK: - Handlers
+    
+    func handleError(_ error: String?) {
+        let error = error?.capitalized ?? "Unexpected Error"
+        let ping = Ping(text: error, style: .danger)
+        print(error)
+        ping.show(animated: true, duration: 3)
+    }
+    
+    func handleSuccess(_ message: String?) {
+        let message = message?.capitalized ?? "Success"
+        let ping = Ping(text: message, style: .success)
+        print(message)
+        ping.show(animated: true, duration: 3)
+    }
+    
+    // MARK: - User Actions
+    
+    @objc
+    func dismissAuth() {
+        dismiss(animated: true, completion: nil)
     }
     
 //    private func authenticateUser() {

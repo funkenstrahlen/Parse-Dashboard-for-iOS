@@ -123,6 +123,7 @@
 			children = (
 				38028C981FC558A7003A4E95 /* WelcomeViewController.swift */,
 				38DE1D011FC511EF00C49508 /* AppInfoViewController.swift */,
+				38B00F801FD60D8200374203 /* AuthViewController.swift */,
 			);
 			path = Misc;
 			sourceTree = "<group>";
@@ -130,7 +131,6 @@
 		38028C9B1FC558BC003A4E95 /* Core */ = {
 			isa = PBXGroup;
 			children = (
-				38B00F801FD60D8200374203 /* AuthViewController.swift */,
 				3872C1EA1FC3C49900EBD87F /* ServersViewController.swift */,
 				38DE1D0B1FC5415000C49508 /* ServerDetailViewController.swift */,
 				3872C20B1FC414E100EBD87F /* SchemaViewController.swift */,
@@ -395,6 +395,7 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-Parse Dashboard for iOS/Pods-Parse Dashboard for iOS-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/BiometricAuthentication/BiometricAuthentication.framework",
 				"${BUILT_PRODUCTS_DIR}/DKImagePickerController/DKImagePickerController.framework",
 				"${BUILT_PRODUCTS_DIR}/RMActionController/RMActionController.framework",
 				"${BUILT_PRODUCTS_DIR}/RMDateSelectionViewController/RMDateSelectionViewController.framework",
@@ -402,6 +403,7 @@
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/BiometricAuthentication.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DKImagePickerController.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RMActionController.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RMDateSelectionViewController.framework",
